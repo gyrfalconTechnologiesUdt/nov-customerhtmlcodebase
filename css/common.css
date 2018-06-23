@@ -1,0 +1,33 @@
+body,html{margin 0, padding 0}
+body{
+	background-color: #e7e7e7;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
+	font-family: open sans semi-bold;
+}
+.body{
+	
+	width: 360px;
+	margin: 0 auto;
+}
+.image{
+	width: 100px;
+    height: 50px;
+}
+.logo{
+	text-align: center; margin-top: 80px;
+}
+.heading{
+	margin-top: 150px; font-weight: bold; font-size: 18px;
+}
+.text-center mt-4{
+	background-color: #b40707;
+}
+.md-form .prefix{
+	font-size: 0.75rem; margin-top: 10px;
+}
+.btn-default {
+    background-color: #b40707!important;
+    color: #fff!important;
+}
