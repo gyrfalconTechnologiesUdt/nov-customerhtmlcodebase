@@ -1,14 +1,18 @@
 $(document).ready(function(){
 
 //User Name Filed Key up Event
-$("#userName input").keyup(function(e){
-	console.log(e.currentTarget.value);
+$("#userName input").focus(function(e){
+	$('#usrNmLbl').addClass("test2")
+});
+
+$("#userName input").blur(function(e){
+	$('#usrNmLbl').removeClass("test2")
 });
 
 
 
 $("#testFunction").click(function(){
-	alert("success");
+	$('#sign').addCl	ass("test")
 });
 
 

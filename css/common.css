@@ -40,9 +40,9 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 }
 
-
-
-
+.test{color: yellow}
+.test1{top:  10px; position: absloute}
+.test2{top: 20px;}
 /*Sign In Page End */
 
 
