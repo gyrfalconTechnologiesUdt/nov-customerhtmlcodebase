@@ -12,38 +12,48 @@
         <script type="text/javascript" src= "js/script.js"></script>
     </head>
     <body>
+	<!--Login Container-->
 	<div class="nov-container">
-		<div class="heading">NAMMAOORUVANDI</div>
-			<div class="feild">
-				<div class="logopart">
+		<!--Loagin Header-->
+		<div class="logintitle">
+			<div class="nov-h1">NAMMAOORUVANDI</div>
+			<div class="logoimg">
 				<img src="img/logo.png" class="logo">
+			</div>	
+		</div>
+		<!--Loagin Form-->
+		<div class="loginformCointainer">		
+			<div class="signinTxt">Sign in</div>
+			<form class="loginForm">
+				<div class="md-form">
+					<input type="text" id="form1" class="form-control">
+					<label for="form1" class="active">Email</label>
+				</div>
+				<div class="md-form">
+					<input type="text" id="form1" class="form-control">
+					<label for="form1" class="active">Password</label>
+				</div>
+				<div class="loginbutton">
+					<a class="" href="#">Login</a>
 				</div>	
-				<div class="Signin">Sign in</div>
-					<div class="md-form">
-						<input type="text" id="form1" class="form-control">
-						<label for="form1" class="active">Email</label>
-					</div>
-					<div class="md-form">
-						<input type="text" id="form1" class="form-control">
-						<label for="form1" class="active">password</label>
-					</div>
-					<div class="loginbutton">
-						<a class="waves-effect waves-light btn" href="#">Login</a>
-					</div>		
-					<div class="btext">Or sign in with</div>
-					<div class="bottomlogopart">
-							<a href="#"><i class="fa fa-facebook circle"></i></a>
-							<a href="#"><i class="fa fa-twitter circle"></i></a>
-							<a href="#"><i class="fa fa-google-plus circle"></i></a>
-					</div>
-					<div class="frgtpwrd">
-						<a href=" ">Forgot password</a>
-					</div>
-					<div class="registernow">
-						<a href=" ">Register Now</a>
-					</div>		
-			</div>				
+			</form>
+			<div class="signInWithTxt">Or sign in with</div>
+			<div class="socialMediaicons">
+				<div class="smicons"><i class="fa fa-facebook circle"></i></div>
+				<div class="smicons"><i class="fa fa-twitter circle"></i></div>
+				<div class="smicons"><i class="fa fa-google-plus circle"></i></div>
+				<div class="clearfix"></div>
+			</div>
+				
+		</div>	
+		<!--Loagin Footer-->
+		<div class="loginfooter">
+			<div class="frgtpwrd">Forgot password</div>
+			<div class="registernow">Register Now</div>	
+			<div class="clearfix"></div>
+		</div>
 	</div>
+	<!--Login Container End-->
     </body>
 		<script type="text/javascript" src= "js/mdb.min.js"></script>
 </html>
