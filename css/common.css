@@ -1,0 +1,181 @@
+/*Common Styles Styles Start*/
+.nov-heading1{}
+.nov-heading2{}
+.nov-heading3{}
+.nov-heading4{}
+.nov-heading5{}
+.nov-heading6{}
+
+
+/*logo*/
+
+
+/*Common Styles Styles End*/
+
+
+.margin-tb{margin: 2.3em 0em}
+
+body,html{margin: 0; padding: 0}
+body{
+	background-color: #e7e7e7;
+
+
+	 font-family: Open Sans semi-bold;
+}
+
+.text{
+	 width: 50%; margin: 0 auto; margin-top: 15px !important;
+}
+.head1{
+	text-align: center; font-weight: bold; font-size: 18px; margin-top: 15px; 
+}
+.heading{
+	margin-top: 15px; font-size: 18px; font-weight: bold;
+}
+.logo{
+	text-align: center;
+}
+.md-form label{
+	color: rgb(188,188,188); 
+}
+.md-form label.active{
+	color:rgb(188,188,188) !important;
+}
+.md-form input[type=text]{
+	border-bottom: 1px solid rgb(188,188,188) !important;
+}
+.md-form label.active{
+	color: rgb(44,52,69) !important;
+}
+.reg{
+	text-align: center; margin-top: 15px; 
+}
+
+.nov-container{
+	width: 758px; margin: 0 auto;
+}
+.chkbk{
+	margin-top: 15px;
+}
+.waves-effect.btn{
+	font-size: 12px ! important; padding: 10px 80px 10px 80px ! important;
+}
+.waves-light{
+	background-color: #2a3746; color: #e7e7e7 ! important;
+}
+.waves-effect{
+	border-radius: 10px ! important; text-transform: none ! important;
+}
+.tc{
+	margin-top: 15px;
+}
+
+body,html{margin: 0; padding: 0}
+body{
+	background-color: #e7e7e7;
+	background-attachment: fixed;
+	 background-size: 100% 100%;
+	 background-position: center;
+	 font-family: Open Sans semi-bold;
+}
+
+.b1{
+    background-color: #2c3445;
+    border: none;	
+}
+.rec{
+ background-color: #fff;
+    width: 300px;
+    border: 1px;
+    padding: 20px;
+    margin: 25px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+.texts{
+	text-align: center;
+}
+.but{
+	text-align: center; margin-top: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e7e7e7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+body,html{margin: 0; padding: 0}
+body{
+	background-color: #e7e7e7;
+	background-attachment: fixed;
+	 background-size: 100% 100%;
+	 background-position: center;
+	 font-family: Open Sans semi-bold;
+	
+}
+.header{
+	width: 100%;
+}
+.section1{
+width: 100%; height: 70px; background-color: rgb(44,52,69); 
+}
+.headings{text-align: center; font-weight: bold; color: #e7e7e7; padding: 22px; font-size: 18px;}
+.body{
+	width: 758px; margin: 0 auto;
+}
+.rectangle1{
+    width: 740px;
+    border: 1px;
+    padding: 20px;
+    margin: 25px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 200px;
+	margin-top: 70px;
+}
+.rectangle2{
+    width: 740px;
+    border: 1px;
+    padding: 20px;
+    margin: 25px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 200px;
+	margin-top: 70px;
+}
+
+/*Driver Sign up Page Style Start*/
+
+
+
+/*Driver Sign up Page Style End*/
