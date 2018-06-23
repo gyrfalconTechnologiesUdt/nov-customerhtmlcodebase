@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 //User Name Filed Key up Event
-$("#userName input").keyup(function(e){
+$("#userName input").focus(function(e){
 	console.log(e.currentTarget.value);
 });
 
