@@ -4,52 +4,53 @@
         <title>Nmmaooruvandi - Driver Signup</title>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">
-		<link type="text/css" rel="stylesheet" href="css/mdb.min.css">  
 		<link type="text/css" rel="stylesheet" href="css/common.css">
         <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
         <script type="text/javascript" src= "js/script.js"></script>
     </head>
     <body>
-        <div class = "nov-container">
-			<div class = "head1">NAMMAOORUVANDI</div>
+	<!--Login Container-->
+    <div class = "nov-container">
+		<!--Loagin Header-->
+		<div class="signintitle">
+			<div class = "nov-h1">NAMMAOORUVANDI</div>
 			<div class = "logo">
 				<img src = "img/logo.png" class = "img1">
 			</div>
-			<div class = "nov-login-container">
-				<div class = "heading">Sign Up</div>
-				<form>
-					<div class="md-form">
-						<input type="text" id="no" class="form-control">
-						<label for="no">Name</label>
-					</div>
-					
-					<div class="md-form">
-						<input type="text" id="no" class="form-control">
-						<label for="no">Mobile No</label>
-					</div>
-					<div class="md-form">
-						<input type="text" id="mail" class="form-control">
-						<label for="mail">Email</label>
-					</div>
-					<div class = "margin-tb">
-						<label for="d">License file</label>
-						<input id="d" name="d" type="file" required aria-Required="true">
-					</div>
-					<div class = "margin-tb">
-						<label class = "mdl-checkbox mdl-js-checkbox" for = "checkbox1">
-							<input type = "checkbox" id = "checkbox1" 
-							class = "mdl-checkbox__input" checked>
-							<span class = "mdl-checkbox__label">Terms and Conditions</span>
-						</label>	
-					</div>						
-					<div class = "reg">
-						<div class="waves-effect waves-light btn" id="register" >Register</div>
-					</div>						
-				</form>					
-			</div>
+		</div>
+		<!--Loagin Form-->
+		<div class = "nov-login-container">
+			<div class = "heading">Sign Up</div>
+			<form class = "signinform">
+				<div class="username" id = "userNameInpt>
+					<label for="form1" class = "active">Name</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="usermobileno">
+					<label for ="no" class = "line">Mobile No</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="useremailid">
+					<label for="mail" class = "line">Email</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class = "margin-tb">
+					<label for="d">License file</label>
+					<input id="d" name="d" type="file" required aria-Required="true">
+				</div>
+				<div class = "margin-tb">
+					<label class = "mdl-checkbox mdl-js-checkbox" for = "checkbox1">
+						<input type = "checkbox" id = "checkbox1" 
+						class = "mdl-checkbox__input" checked>
+						<span class = "mdl-checkbox__label">Terms and Conditions</span>
+					</label>	
+				</div>						
+				<div class="signinbutton">
+					<a class="" href="#">Register</a>
+				</div>						
+			</form>					
 		</div>	
-		 
+		 <!--Login Container End-->
     </body>
-	<script type="text/javascript" src= "js/mdb.min.js"></script>
-</html>
+	</html>
