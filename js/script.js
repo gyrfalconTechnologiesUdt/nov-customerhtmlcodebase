@@ -65,5 +65,6 @@ $("#mailIdInput input").blur(function(e){
 $("#emailLbl").removeClass("emailLbl");
 });
 
+
 });
 
