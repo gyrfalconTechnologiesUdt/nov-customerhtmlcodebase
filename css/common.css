@@ -17,8 +17,16 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
     -webkit-box-shadow: 0 1px 0 0 #2a3746;	
     box-shadow: 0 1px 0 0 #2a3746;
     border-bottom: 1px solid #2a3746;}
-.md-form  label{	color: rgb(188,188,188) ; }
-.md-form input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.username {position: relative; margin-top: 50px; }
+.usrNmLbl{top: -35px !important;}
+.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.username input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.username input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.password {position: relative; margin-top: 50px;}
+.paswrdLbl{top: -35px !important;}
+.password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.password input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.password input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
 .loginbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 .socialMediaicons{	text-align: center; margin-top: 20px; width: 290px}
@@ -46,5 +54,12 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 /*Sign In Page End */
 
+/*Sign Up Page Start*/
+
+.register {  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
+    border-radius: 7px; text-align: center}
+
+
+/*Sign Up Page End */
 
 
