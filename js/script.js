@@ -1,18 +1,27 @@
 $(document).ready(function(){
 
 //User Name Filed Key up Event
-$("#userName input").keyup(function(e){
-	console.log(e.currentTarget.value);
+
+$("#userNameInpt input").focus(function(e){
+	//alert("hi");
+$("#usrNmLbl").addClass("usrNmLbl");	
+	
 });
-
-
-
-$("#testFunction").click(function(){
-	alert("success");
+$("#userNameInpt input").blur(function(e){
+	//alert("hi");
+$("#usrNmLbl").removeClass("usrNmLbl");	
+	
 });
+$("#passWrdInpt input").focus(function(e){
+	//alert("hi");
+$("#paswrdLbl").addClass("paswrdLbl");	
+	
+});
+$("#passWrdInpt input").blur(function(e){
+	//alert("hi");
+$("#paswrdLbl").removeClass("paswrdLbl");	
 
-
-
+});
 
 });
 
