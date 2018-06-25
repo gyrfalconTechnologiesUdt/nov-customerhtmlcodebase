@@ -18,11 +18,11 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .username input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
 .username input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
 .password {position: relative; margin-top: 50px;}
-.b-Line{	display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
 .paswrdLbl{top: -35px !important;}
 .password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
 .password input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
 .password input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.b-Line{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
 .loginbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 .socialMediaicons{	text-align: center; margin-top: 20px; width: 290px}
@@ -73,16 +73,20 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 /* driver signup page End*/
 
-/*Sign Up Page Start*/
-
+/*customer Sign Up Page Start*/
+.Firstname {position: relative; margin-top: 50px; }
+.fnameLbl{top: -35px !important;}
+.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.Firstname input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.Firstname input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.Lastname {position: relative; margin-top: 50px; }
+.lNameLbl{top: -35px !important;}
+.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.Lastname input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.Lastname input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
 .register {  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 
 
-/*Sign Up Page End */
+/*customer Sign Up Page End */
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a7609eddb283b80e78f32ddbf2e61cf01df04d9a
