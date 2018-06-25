@@ -37,6 +37,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important;}
     border-radius: 7px; text-align: center}
 .frgtpwrd  {	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: left; margin: 15px 0;}
 .registernow{	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: right; margin: 15px 0;}
+	a{color: #e7e7e7; !important}
 .smicons{float: left}
 /*Media Query*/
 
