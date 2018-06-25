@@ -3,39 +3,50 @@
     <head>
         <title>UA Connectivity</title>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link type="text/css" rel="stylesheet" href="css/common.css">
         <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
         <script type="text/javascript" src= "js/script.js"></script>
     </head>
     <body>
-	<form>
+	<!-- login-container-->
 		<div class="nov-container">
 			<div class="logo">
 				<img src= "img/logo.png" class="image">
 			</div>
+			<div class="socialMedia">Social Media</div>
+			<div class="icons">
+				<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+				<div class="icon social google"><i class="fa fa-google-plus"></i></div>
+				<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+			</div>
+			<div class="or">OR</div>
 			<div class="heading">Login</div>
 		
-    <!-- Material input email -->
-			<div class="username">
-				<i class="fa fa-envelope prefix grey-text"></i>
-				<label for class="materialFormLoginEmailEx">Email</label>
-				<input type="email" id="materialFormLoginEmailEx" class="form-control">	
+    <!-- email -->
+			<div class="username" id="userNameinput">
+				<i class="fa fa-envelope prefix grey-text" id="mailicon"></i>
+				<label for ="form1" class="active" id="userNameLbl">Email</label>
+				<input type="text" class="bottomline">	
 			</div>
 
-    <!-- Material input password -->
-			<div class="password">
-				<i class="fa fa-lock prefix grey-text"></i>
-				<label for="materialFormLoginPasswordEx">password</label>
-				<input type="password" id="materialFormLoginPasswordEx" class="form-control">		
+    <!-- password -->
+			<div class="password" id="passwordinput">
+				<i class="fa fa-lock prefix grey-text" id="passwordicon"></i>
+				<label for="form1" class="active" id="passwordLbl">Password</label>
+				<input type="pwd" class="bottomline">		
 			</div>
+			<div class="forgotpwd">Forgot Password?</div>
 			<div class="login">
-				<button class="btn btn-default" type="submit">Login</button>
+				<a class="" href="#">LOG IN</a>
+			</div>
+	<!-- footer-->
+			<div class="footer">
+				<div class="account">Don't have an Account?</div>
+				<div class="signup">Signup</div>
 			</div>
 		</div>
-</form>
-<!-- Material form login -->
 			
        
     </body>
