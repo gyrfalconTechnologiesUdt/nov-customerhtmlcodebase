@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 //User Name Filed Key up Event
-<<<<<<< HEAD
+
 $("#userNameInpt input").focus(function(e){
 	//alert("hi");
 $("#usrNmLbl").addClass("usrNmLbl");	
@@ -22,13 +22,6 @@ $("#passWrdInpt input").blur(function(e){
 $("#paswrdLbl").removeClass("paswrdLbl");	
 
 });
-
-$("#testFunction").click(function(){
-	$('#sign').addCl	ass("test")
-});
-
-
-
 
 });
 
