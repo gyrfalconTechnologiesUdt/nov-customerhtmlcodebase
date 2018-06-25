@@ -22,6 +22,22 @@ $("#passWrdInpt input").blur(function(e){
 $("#paswrdLbl").removeClass("paswrdLbl");	
 
 });
+$("#mobileNoInpt input").focus(function(e){
+	
+$("#mblNoLbl").addClass("mblNoLbl");
+});
+$("#mobileNoInpt input").blur(function(e){
+	
+$("#mblNoLbl").removeClass("mblNoLbl");
+});
+$("#mailIdInput input").focus(function(e){
+	
+$("#emailLbl").addClass("emailLbl");
+});
+$("#mailIdInput input").blur(function(e){
+	
+$("#emailLbl").removeClass("emailLbl");
+});
 
 });
 
