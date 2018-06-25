@@ -48,7 +48,6 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 }
 
 }
-<<<<<<< HEAD
 /*Sign In Page End */
 
 /* driver signup page strat*/
@@ -62,7 +61,6 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .line{position: absolute;}
 .signinbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #e7e7e7;
     border-radius: 7px; text-align: center}
-=======
 
 /*Sign In Page End */
 
@@ -75,4 +73,4 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 /*Sign Up Page End */
 
 
->>>>>>> 30a407b770a99e9aa0d1693e7b1e522a53317ee9
+
