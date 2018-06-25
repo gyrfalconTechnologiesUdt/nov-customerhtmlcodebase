@@ -12,13 +12,16 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .logoimg{text-align: center; margin-top: 15px;}
 .loginformCointainer{ margin: 20px 0px; }
 .signinTxt{ font-size: 1.2em; font-weight: bold;}
-.md-form input[type=text]{	border-bottom: 1px solid rgb(188,188,188) ; }
-.md-form input[type=text]:focus:not([readonly]){
-    -webkit-box-shadow: 0 1px 0 0 #2a3746;	
-    box-shadow: 0 1px 0 0 #2a3746;
-    border-bottom: 1px solid #2a3746;}
-.md-form  label{	color: rgb(188,188,188) ; }
-.md-form input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.username {position: relative; margin-top: 50px; }
+.usrNmLbl{top: -35px !important;}
+.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.username input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.username input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.password {position: relative; margin-top: 50px;}
+.paswrdLbl{top: -35px !important;}
+.password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.password input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.password input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
 .loginbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 .socialMediaicons{	text-align: center; margin-top: 20px; width: 290px}
@@ -40,11 +43,31 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .nov-container{    width: 300px;   }
 
 }
-
-.test{color: yellow}
-.test1{top:  10px; position: absloute}
-.test2{top: 20px;}
+<<<<<<< HEAD
 /*Sign In Page End */
 
+/* driver signup page strat*/
+.signintitle{margin-top: 30px;}
+.logo{text-align: center; margin-top: 15px;}
+.nov-login-container{ margin: 20px 0px; }
+.heading{ font-size: 1.2em; font-weight: bold;}
+.form-control{outline: 0; background: transparent; border: 0; -webkit-box-shadow: 0 1px 0 0 #2a3746; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;}
+.form-control:focus { color: #2a3746; outline: 0; background: transparent; border: 0;}
+.username{position: relative;}
+.line{position: absolute;}
+.signinbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #e7e7e7;
+    border-radius: 7px; text-align: center}
+=======
+
+/*Sign In Page End */
+
+/*Sign Up Page Start*/
+
+.register {  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
+    border-radius: 7px; text-align: center}
 
 
+/*Sign Up Page End */
+
+
+>>>>>>> 30a407b770a99e9aa0d1693e7b1e522a53317ee9
