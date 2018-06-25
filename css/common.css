@@ -52,6 +52,13 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 /* driver signup page strat*/
 .signintitle{margin-top: 30px;}
+.logo{text-align: center; margin-top: 15px;}
+.nov-login-container{ margin: 20px 0px; }
+.heading{ font-size: 1.2em; font-weight: bold;}
+.username{position: relative;}
+.line{position: absolute;}
+.signinbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #e7e7e7;
+    border-radius: 7px; text-align: center}
 .usermobileno{position: relative; margin-top: 50px;}
 .mblNoLbl{top: -35px !important;}
 .usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px;}
@@ -74,3 +81,8 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 /*Sign Up Page End */
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> a7609eddb283b80e78f32ddbf2e61cf01df04d9a
