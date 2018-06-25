@@ -13,16 +13,17 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .loginformCointainer{ margin: 20px 0px; }
 .signinTxt{ font-size: 1.2em; font-weight: bold;}
 .username {position: relative; margin-top: 50px; }
-.usrNmLbl{top: -35px !important;}
+.usrNmLbl{top: -35px !important; color: #2a3746 !important;}
 .username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
 .username input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
-.username input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.username input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .password {position: relative; margin-top: 50px;}
-.b-Line{	display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
-.paswrdLbl{top: -35px !important;}
+.paswrdLbl{top: -35px !important; color: #2a3746 !important;}
 .password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
 .password input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
-.password input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.password input[type=text]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.b-Line{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
+input:focus{border-bottom: 2px solid #2a3746 !important;}
 .loginbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 .socialMediaicons{	text-align: center; margin-top: 20px; width: 290px}
@@ -60,25 +61,34 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .signinbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #e7e7e7;
     border-radius: 7px; text-align: center}
 .usermobileno{position: relative; margin-top: 50px;}
-.mblNoLbl{top: -35px !important;}
+.mblNoLbl{top: -35px !important; color: #2a3746 !important; }
 .usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px;}
 .usermobileno input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
-.usermobileno input[type=text]	{background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
+.usermobileno input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .emailid{position: relative; margin-top: 50px;}
-.emailLbl{top: -35px !important;}
+.emailLbl{top: -35px !important; color: #2a3746 !important;}
 .emailid label{color: rgb(188,188,188); position: absolute; top: 0px;}
 .emailid input[type=text]:focus:not([readonly])+label{color: #2a3746;}
-.emailid input[type=text] {background: transparent; border-bottom: 1px solid #e7e7e7; border: 0; outline: 0; box-shadow: 0 1px 0 0 #2a3746; border-bottom: 1px solid #2a3746;	}
 .licensefile{margin-top: 40px;}
 .chkboxtext{margin-top: 40px;}
-.
+.emailid input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
+
+
 /* driver signup page End*/
 
-/*Sign Up Page Start*/
-
+/*customer Sign Up Page Start*/
+.Firstname {position: relative; margin-top: 50px; }
+.fnameLbl{top: -35px !important; color: #2a3746 !important;}
+.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.Firstname input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.Firstname input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
+.Lastname {position: relative; margin-top: 50px; }
+.lNameLbl{top: -35px !important; color: #2a3746 !important;}
+.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.Lastname input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
+.Lastname input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .register {  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; text-align: center}
 
-
-/*Sign Up Page End */
+/*customer Sign Up Page End */
 

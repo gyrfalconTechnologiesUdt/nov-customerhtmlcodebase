@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 //User Name Filed Key up Event
 
+//customer page start
+
 $("#userNameInpt input").focus(function(e){
 	//alert("hi");
 $("#usrNmLbl").addClass("usrNmLbl");	
@@ -22,6 +24,30 @@ $("#passWrdInpt input").blur(function(e){
 $("#paswrdLbl").removeClass("paswrdLbl");	
 
 });
+
+$("#firstNmInpt input").focus(function(e){
+	//alert("hi");
+$("#fnameLbl").addClass("fnameLbl");	
+	
+});
+$("#firstNmInpt input").blur(function(e){
+	//alert("hi");
+$("#fnameLbl").removeClass("fnameLbl");	
+	
+});
+$("#lastNmInpt input").focus(function(e){
+	//alert("hi");
+$("#lNameLbl").addClass("lNameLbl");	
+	
+});
+$("#lastNmInpt input").blur(function(e){
+	//alert("hi");
+$("#lNameLbl").removeClass("lNameLbl");	
+
+});
+// customer page end
+
+
 $("#mobileNoInpt input").focus(function(e){
 	
 $("#mblNoLbl").addClass("mblNoLbl");
