@@ -12,11 +12,6 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .logoimg{text-align: center; margin-top: 15px;}
 .loginformCointainer{ margin: 20px 0px; }
 .signinTxt{ font-size: 1.2em; font-weight: bold;}
-.md-form input[type=text]{	border-bottom: 1px solid rgb(188,188,188) ; }
-.md-form input[type=text]:focus:not([readonly]){
-    -webkit-box-shadow: 0 1px 0 0 #2a3746;	
-    box-shadow: 0 1px 0 0 #2a3746;
-    border-bottom: 1px solid #2a3746;}
 .username {position: relative; margin-top: 50px; }
 .usrNmLbl{top: -35px !important;}
 .username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
@@ -49,9 +44,9 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 
 }
 
-
-
-
+.test{color: yellow}
+.test1{top:  10px; position: absloute}
+.test2{top: 20px;}
 /*Sign In Page End */
 
 /*Sign Up Page Start*/
