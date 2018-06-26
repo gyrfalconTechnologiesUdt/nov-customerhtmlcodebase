@@ -14,7 +14,7 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .signinTxt{ font-size: 1.2em; font-weight: bold;}
 .username {position: relative; margin-top: 50px; }
 .usrNmLbl{top: -35px !important; color: #2a3746 !important;}
-.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px;}
+.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; }
 .username input[type=text]:focus~label,.username input[type=text]:focus:not([readonly])+label{    color: #2a3746;}
 .username input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .password {position: relative; margin-top: 50px;}
