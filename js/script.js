@@ -10,6 +10,7 @@ $("#userNameInpt input").blur(function(e){
 	let inputVal = e.currentTarget.value;
 	if(inputVal === ''){
 		$("#usrNmLbl").removeClass("usrNmLbl");
+		
 	}
 });
 
@@ -23,6 +24,10 @@ $("#passWrdInpt input").blur(function(e){
 		$("#paswrdLbl").removeClass("paswrdLbl");
 	}
 });
+
+$("#registerLink").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_signup.html";
+}); 
 /*Sign In Page End */
 
 /*customer Sign Up Page Start*/
@@ -47,6 +52,11 @@ $("#lastNmInpt input").blur(function(e){
 		$("#lNameLbl").removeClass("lNameLbl");
 	}
 });
+
+/*redirect*/
+$("#regLk").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
+}); 
 /*customer Sign Up Page End */
 
 /* driver signup page strat*/
@@ -72,9 +82,6 @@ $("#mobileNoInpt input").blur(function(e){
 });
 /* driver signup page End*/
 
-/*redirect*/
-$("#regLk").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
-	});        
+       
 });
 
