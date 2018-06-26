@@ -1,69 +1,51 @@
-$(document).ready(function(){
 
-//User Name Filed Key up Event
+$(document) .ready(function(){
+	
 
-//customer page start
+	
+$("#userNameinput input").focus(function(e){
+	
+$("#userNameLbl").addClass("userNameLbl");
 
-$("#userNameInpt input").focus(function(e){
-	//alert("hi");
-$("#usrNmLbl").addClass("usrNmLbl");	
-	
 });
-$("#userNameInpt input").blur(function(e){
-	//alert("hi");
-$("#usrNmLbl").removeClass("usrNmLbl");	
+$("#userNameinput input").blur(function(e){
 	
-});
-$("#passWrdInpt input").focus(function(e){
-	//alert("hi");
-$("#paswrdLbl").addClass("paswrdLbl");	
-	
-});
-$("#passWrdInpt input").blur(function(e){
-	//alert("hi");
-$("#paswrdLbl").removeClass("paswrdLbl");	
+$("#userNameLbl").removeClass("userNameLbl");
 
 });
 
-$("#firstNmInpt input").focus(function(e){
-	//alert("hi");
-$("#fnameLbl").addClass("fnameLbl");	
+$("#userNameinput input").focus(function(e){
 	
-});
-$("#firstNmInpt input").blur(function(e){
-	//alert("hi");
-$("#fnameLbl").removeClass("fnameLbl");	
-	
-});
-$("#lastNmInpt input").focus(function(e){
-	//alert("hi");
-$("#lNameLbl").addClass("lNameLbl");	
-	
-});
-$("#lastNmInpt input").blur(function(e){
-	//alert("hi");
-$("#lNameLbl").removeClass("lNameLbl");	
+$("#mailicon").addClass("mailicon");
 
 });
-// customer page end
+$("#userNameinput input").blur(function(e){
+	
+$("#mailicon").removeClass("mailicon");
 
+});
+$("#passwordinput input").focus(function(e){
+	
+$("#passwordLbl").addClass("passwordLbl");
 
-$("#mobileNoInpt input").focus(function(e){
-	
-$("#mblNoLbl").addClass("mblNoLbl");
 });
-$("#mobileNoInpt input").blur(function(e){
+$("#passwordinput input").blur(function(e){
 	
-$("#mblNoLbl").removeClass("mblNoLbl");
-});
-$("#mailIdInput input").focus(function(e){
-	
-$("#emailLbl").addClass("emailLbl");
-});
-$("#mailIdInput input").blur(function(e){
-	
-$("#emailLbl").removeClass("emailLbl");
-});
+$("#passwordinput").removeClass("passwordinput");
 
 });
 
+$("passwordinput input").focus(function(e){
+	
+$("#passwordicon").addClass("passwordicon");
+
+});
+<<<<<<< HEAD
+=======
+$("#passwordinput input").blur(function(e){
+	
+$("#passwordicon").removeClass("passwordicon");
+
+});
+});
+>>>>>>> 42c929d8e259907e3c6288ed79d3ecd7c9716484
