@@ -3,49 +3,66 @@ $(document) .ready(function(){
 	
 
 	
-$("#userNameinput input").focus(function(e){
+$("#userNameInpt input").focus(function(e){
 	
-$("#userNameLbl").addClass("userNameLbl");
+$("#usrNmLbl").addClass("usrNmLbl");
 
 });
-$("#userNameinput input").blur(function(e){
+$("#userNameInpt input").blur(function(e){
 	
-$("#userNameLbl").removeClass("userNameLbl");
+$("#usrNmLbl").removeClass("usrNmLbl");
 
 });
 
-$("#userNameinput input").focus(function(e){
+$("#passWrdInpt input").focus(function(e){
 	
-$("#mailicon").addClass("mailicon");
+$("#paswrdLbl").addClass("paswrdLbl");
 
 });
-$("#userNameinput input").blur(function(e){
+$("#passWrdInpt input").blur(function(e){
 	
-$("#mailicon").removeClass("mailicon");
+$("#paswrdLbl").removeClass("paswrdLbl");
 
 });
-$("#passwordinput input").focus(function(e){
+$("#firstNmInpt input").focus(function(e){
 	
-$("#passwordLbl").addClass("passwordLbl");
+$("#paswrdLbl").addClass("paswrdLbl");
 
 });
-$("#passwordinput input").blur(function(e){
+$("#firstNmInpt input").blur(function(e){
 	
-$("#passwordinput").removeClass("passwordinput");
+$("#fnameLbl").removeClass("fnameLbl");
 
 });
-
-$("passwordinput input").focus(function(e){
+$("#lastNmInpt input").focus(function(e){
 	
-$("#passwordicon").addClass("passwordicon");
+$("#lNameLbl").addClass("lNameLbl");
 
 });
-<<<<<<< HEAD
-=======
-$("#passwordinput input").blur(function(e){
+$("#lastNmInpt input").blur(function(e){
 	
-$("#passwordicon").removeClass("passwordicon");
+$("#lNameLbl").removeClass("lNameLbl");
+
+});
+$("#mailIdInput input").focus(function(e){
+	
+$("#emailLbl").addClass("emailLbl");
+
+});
+$("#mailIdInput input").blur(function(e){
+	
+$("#emailLbl").removeClass("emailLbl");
+
+});
+$("#mobileNoInpt input").focus(function(e){
+	
+$("#mblNoLbl").addClass("mblNoLbl");
+
+});
+$("#mobileNoInpt input").blur(function(e){
+	
+$("#mblNoLbl").removeClass("mblNoLbl");
 
 });
 });
->>>>>>> 42c929d8e259907e3c6288ed79d3ecd7c9716484
+
