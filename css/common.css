@@ -44,8 +44,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 @media only screen and (max-width: 320px) and (min-width: 350px)  {
 
 .nov-container{    width: 300px;   }
+.usrNmLbl:valid~label{ top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 
-.usrNmLbl{color: #2a3746;}
 	
 }
 
