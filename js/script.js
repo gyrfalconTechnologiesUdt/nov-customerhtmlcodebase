@@ -72,5 +72,9 @@ $("#mobileNoInpt input").blur(function(e){
 });
 /* driver signup page End*/
 
+/*redirect*/
+$("#regLk").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
+	});        
 });
 
