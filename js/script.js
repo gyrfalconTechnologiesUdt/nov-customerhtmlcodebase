@@ -126,6 +126,7 @@ $("#menu-button").click(function(){
 
 /* Hamburger menu end*/
 
+
 /*driver history page start*/
 $(".rectangle1").hide();
 $(".rectangle2").hide();
