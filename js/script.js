@@ -88,12 +88,28 @@ $("#mobileNoInpt input").blur(function(e){
 		$("#mblNoLbl").removeClass("mblNoLbl");
 	}
 });
+
 /* driver signup page End*/
-/*popup page start*/
 
+/* Hamburger menu start*/
 
-	
-/* popup page end*/
-       
+$("#menu-button").click(function(){
+  $(this).toggleClass("active");
+  $("#line-1").toggleClass("active");
+  $("#line-2").toggleClass("active");
+  $("#line-3").toggleClass("active");
+  $("#menu").slideToggle("slow");
 });
+
+/* Hamburger menu end*/
+
+/*driver history page start*/
+$(".rectangle1").hide();
+$(".rectangle2").hide();
+ $("#cureentReq").click(function(){
+       $(".rectangle1").show();
+       $(".rectangle2").show();
+    });   
+/*driver history page End*/	
+
 
