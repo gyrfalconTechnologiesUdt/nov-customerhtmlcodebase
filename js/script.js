@@ -1,12 +1,5 @@
 $(document) .ready(function(){
 	
-$("#close").click(function() {
-	$("#popUp").hide();
-});
-	
-$("#popUp").load(function() {
-    $("this").show();
-});
 
 /*redirect*/
 $("#regLk").click(function(){
@@ -16,6 +9,7 @@ $("#regLk").click(function(){
 $("#registerLink").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
 }); 
+	
 	
 /*Sign In Page Start*/
 $("#userNameInpt input").focus(function(e){	
@@ -41,6 +35,14 @@ $("#passWrdInpt input").blur(function(e){
 	}
 });
 /*Sign In Page End */
+
+$("#close").click(function() {
+	$("#popUp").hide();
+});
+	
+$("#popUp").load(function() {
+    $("this").show();
+});
 
 /*customer Sign Up Page Start*/
 $("#firstNmInpt input").focus(function(e){
