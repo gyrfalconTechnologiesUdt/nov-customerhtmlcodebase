@@ -1,13 +1,13 @@
 
 $(document) .ready(function(){
-	$("#close").click(function() {
-
-       $("#popUp").hide();
-    });
+	
+$("#close").click(function() {
+	$("#popUp").hide();
+});
 	
 $("#popUp").load(function() {
-       $("this").show();
-    });
+    $("this").show();
+});
 	
 /*Sign In Page Start*/
 $("#userNameInpt input").focus(function(e){	
@@ -112,4 +112,4 @@ $(".rectangle2").hide();
     });   
 /*driver history page End*/	
 
-
+});
