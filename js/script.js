@@ -43,7 +43,6 @@ $("#close").click(function() {
 $("#popUp").load(function() {
     $("this").show();
 });
-
 /*customer Sign Up Page Start*/
 $("#firstNmInpt input").focus(function(e){
 $("#fnameLbl").addClass("fnameLbl");
