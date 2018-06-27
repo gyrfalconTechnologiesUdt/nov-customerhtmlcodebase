@@ -1,5 +1,13 @@
 
 $(document) .ready(function(){
+	$("#close").click(function() {
+
+       $("#popUp").hide();
+    });
+	
+$("#popUp").load(function() {
+       $("this").show();
+    });
 	
 /*Sign In Page Start*/
 $("#userNameInpt input").focus(function(e){	
@@ -81,7 +89,11 @@ $("#mobileNoInpt input").blur(function(e){
 	}
 });
 /* driver signup page End*/
+/*popup page start*/
 
+
+	
+/* popup page end*/
        
 });
 
