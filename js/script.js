@@ -34,7 +34,7 @@ $("#passWrdInpt input").blur(function(e){
 });
 
 $("#registerLink").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_signup.html";
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
 }); 
 /*Sign In Page End */
 
