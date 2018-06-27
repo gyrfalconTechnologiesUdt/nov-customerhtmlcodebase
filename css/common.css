@@ -72,9 +72,34 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .licensefile{margin-top: 40px;}
 .chkboxtext{margin-top: 40px;}
 .emailid input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
-
+#menu-button{background: #e7e7e7; width: 50px; border-radius: 5px; position: relative; cursor: pointer; transition: all linear .3s; padding: 4px; z-index: 1;}
+#menu-button.active{background: #e7e7e7;}
+#line-1,#line-2,#line-3{width: 90%; background: #000; height: 8px; margin: 4px auto; border-radius: 2px; transition: all linear .3s;}
+#line-1.active{-webkit-transform: translate(0px,12px) rotate(45deg); transform: translate(0px,12px) rotate(45deg);}
+#line-2.active{opacity: 0;}
+#line-3.active{-webkit-transform: translate(0px, -12px) rotate(-45deg); transform: translate(0px, -12px) rotate(-45deg);}
+#menu{background: #fff; width: 150px; padding: 10px; padding-top: 30px; color: #2a3746; font-family: arial; font-size: 1.5rem; display: none; position: absolute; top: 8px; border-radius: 5px;}
+#menu ul{list-style: none;}
+#menu ul li{margin: 8px 0;}
 
 /* driver signup page End*/
+
+/* driver history page strat*/
+.header{background-color: #2a3746; height: 80px;}
+.headings{text-align: center; color: #e7e7e7;}
+.section1{padding: 25px;}
+.leftside{width: 50%; float: left;}
+.rectangle1{width: 95%; height: 250px; background-color: #fff; margin: 0 auto; margin-top: 50px; border: 1px solid #000;}
+.rectangle2{width: 95%; height: 250px; background-color: #fff; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; border: 1px solid #000;}
+.txt1{padding: 20px;}
+.txt2{padding: 20px;}
+.accept{margin-bottom: 20px;}
+.rightside{float: right;}
+.top2{float: right;}
+.top1{margin-top: 10px; width: 50%;}
+
+
+/* driver history page End*/
 
 /*customer Sign Up Page Start*/
 .Firstname {position: relative; margin-top: 50px; }
