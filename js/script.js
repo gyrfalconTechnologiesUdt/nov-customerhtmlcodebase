@@ -133,7 +133,7 @@ $(".rectangle2").hide();
  $("#cureentReq").click(function(){
        $(".rectangle1").show();
        $(".rectangle2").show();
-    });   
+    }); 	
 /*driver history page End*/	
 
 });
