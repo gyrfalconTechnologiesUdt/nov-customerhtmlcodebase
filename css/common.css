@@ -122,6 +122,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .cinfirmPswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
+    border-radius: 7px; border: none;}
 /*reset passwrd end*/
 
 /*Dashboard page*/

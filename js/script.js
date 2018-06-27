@@ -1,7 +1,7 @@
 $(document) .ready(function(){
 	
 
-/*redirect*/
+/*redirect start*/
 $("#regLk").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
 }); 
@@ -9,7 +9,15 @@ $("#regLk").click(function(){
 $("#registerLink").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
 }); 
-	
+
+$("#forgotLnk").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/4_customer_forgotpassword.html";	
+}); 
+$("#submitLnk").click(function(){
+	alert("Submitted");
+});
+
+/*redirect end*/	
 	
 /*Sign In Page Start*/
 $("#userNameInpt input").focus(function(e){	
@@ -36,6 +44,7 @@ $("#passWrdInpt input").blur(function(e){
 });
 /*Sign In Page End */
 
+/*dashboard popup start*/
 $("#close").click(function() {
 	$("#popUp").hide();
 });
@@ -43,6 +52,11 @@ $("#close").click(function() {
 $("#popUp").load(function() {
     $("this").show();
 });
+<<<<<<< HEAD
+=======
+/*dashboard popup End*/
+
+>>>>>>> 78b98357e33b066b131e4ea8aaf2bf80d5820a34
 /*customer Sign Up Page Start*/
 $("#firstNmInpt input").focus(function(e){
 $("#fnameLbl").addClass("fnameLbl");
