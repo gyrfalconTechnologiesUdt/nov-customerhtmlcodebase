@@ -89,13 +89,15 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .rectangle2{width: 95%; height: 250px; background-color: #fff; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; border: 1px solid #000;}
 .txt1{padding: 20px;}
 .txt2{padding: 20px;}
-.accept{margin-bottom: 20px;}
+.accept{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none; margin-left: 20px;}
+.decline{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none;}
 .rightside{float: right;}
-.top2{float: right;}
-.top1{margin-top: 10px; width: 50%;}
+.top2{float: right; margin-top: 15px;}
+.top1{margin-top: 15px; width: 50%; float: left;}
 
 
 /* driver history page End*/
+
 
 /*customer Sign Up Page Start*/
 .Firstname {position: relative; margin-top: 50px; }
