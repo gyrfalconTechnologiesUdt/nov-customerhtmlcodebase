@@ -1,4 +1,3 @@
-
 $(document) .ready(function(){
 	
 $("#close").click(function() {
@@ -8,6 +7,15 @@ $("#close").click(function() {
 $("#popUp").load(function() {
     $("this").show();
 });
+
+/*redirect*/
+$("#regLk").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
+}); 
+
+$("#registerLink").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
+}); 
 	
 /*Sign In Page Start*/
 $("#userNameInpt input").focus(function(e){	
@@ -32,10 +40,6 @@ $("#passWrdInpt input").blur(function(e){
 		$("#paswrdLbl").removeClass("paswrdLbl");
 	}
 });
-
-$("#registerLink").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
-}); 
 /*Sign In Page End */
 
 /*customer Sign Up Page Start*/
@@ -60,12 +64,31 @@ $("#lastNmInpt input").blur(function(e){
 		$("#lNameLbl").removeClass("lNameLbl");
 	}
 });
-
-/*redirect*/
-$("#regLk").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
-}); 
 /*customer Sign Up Page End */
+
+/*customer resetpaswrd page End */
+$("#newPswrdInpt input").focus(function(e){	
+$("#newPaswrdLbl").addClass("newPaswrdLbl");
+});
+
+$("#newPswrdInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#newPaswrdLbl").removeClass("newPaswrdLbl");
+	}
+});
+
+$("#confirmPswrdInpt input").focus(function(e){	
+$("#cinfirmPswrdLbl").addClass("cinfirmPswrdLbl");
+});
+
+$("#confirmPswrdInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#cinfirmPswrdLbl").removeClass("cinfirmPswrdLbl");
+	}
+});
+/*customer resetpaswrd page End */
 
 /* driver signup page strat*/
 $("#mailIdInput input").focus(function(e){	
