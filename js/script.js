@@ -168,24 +168,19 @@ $("#mobileNoInpt input").blur(function(e){
 
 //driver signup page End
 
-// Hamburger menu start
-$("#menu-button").click(function(){
-  $(this).toggleClass("active");
-  $("#line-1").toggleClass("active");
-  $("#line-2").toggleClass("active");
-  $("#line-3").toggleClass("active");
-  $("#menu").slideToggle("slow");
-});
-// Hamburger menu end
-
 //driver history page start
-$(".rectangle1").hide();
-$(".rectangle2").hide();
+$(".curreqdetails").show();
+$(".pasreqdetails").hide();
+ $("#pastReq").click(function(){
+       $(".pasreqdetails").show();
+       $(".curreqdetails").hide();
+    }); 
  $("#cureentReq").click(function(){
-       $(".rectangle1").show();
-       $(".rectangle2").show();
-    }); 	
+       $(".curreqdetails").show();
+       $(".pasreqdetails").hide();
+    }); 
 //driver history page End
+
 
 //confirm page popup start
 
@@ -199,6 +194,15 @@ $("#CloseId").click(function(){
 	$("#searchpopUp").show();
 });	
 //confirm page popup end
+
+//poppup message start
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+//poppup message end
+
 
 //dashboard popup start
 $("#close").click(function() {
