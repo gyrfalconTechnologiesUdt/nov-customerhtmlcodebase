@@ -159,6 +159,7 @@ $("#mailIdInput input").blur(function(e){
 $("#mobileNoInpt input").focus(function(e){
 $("#mblNoLbl").addClass("mblNoLbl");
 });
+
 $("#mobileNoInpt input").blur(function(e){
 	let inputVal = e.currentTarget.value;
 	if(inputVal === ''){
