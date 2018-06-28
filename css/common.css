@@ -7,7 +7,7 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .clearfix{clear: both!important; float: none!important; }
 /*Common Styles End**/
 
-/*Sign In Page Start*/
+/* customer Sign In Page Start*/
 .logintitle{margin-top: 30px;}
 .logoimg{text-align: center; margin-top: 15px;}
 .loginformCointainer{ margin: 20px 0px; }
@@ -25,17 +25,11 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !important;}
 .loginbutton{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; border: none;}
-.socialMediaicons{ margin-top: 20px; width: 290px; margin-left: 115px;}
+.socialMediaicons{ margin-top: 20px; width: 290px; margin-left: 95px;}
 .signInWithTxt{ font-size: 12px; font-weight: bold; color: #000; text-align: center;}
-.circle{border-radius: 50%;	margin: 0.15em;	font-size: 2em;}
-.fa-facebook{ background: #fff; color: #000; padding: 0.05em 0.4em;font-size: 25px;}
-.fa{font-style: Open Sans semi-bold;}
-.fa-google-plus{  color: #000;  background: #fff;  padding: 0.1em 0.1em;  font-size: 25px;  }  
-.fa-twitter{	background: #fff;	color: #000;  padding: 0.05em 0.04em;  font-size: 25px;	}
 .frgtpwrd  {	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: left; margin: 15px 0;}
 .registernow{	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: right; margin: 15px 0;}
 	a{color: #e7e7e7; !important}
-.smicons{float: left}
 /*Media Query*/
 
 @media only screen and (max-width: 320px) and (min-width: 350px)  {
@@ -46,8 +40,66 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 	
 }
 
-}
-/*Sign In Page End */
+/* customer Sign In Page End */
+
+/*customer Sign Up Page Start*/
+.Firstname {position: relative; margin-top: 50px; }
+.fnameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.Firstname input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
+.Lastname {position: relative; margin-top: 50px; }
+.lNameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.Lastname input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
+.register {  text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none; }
+	
+/*customer Sign Up Page End */
+
+/*Search page start*/
+.map{ position: relative;}
+.Search{ position: absolute; margin-left: 50px !important; top: 0px;  width: 1000px; height: 40px;  margin: 40px auto; background: #2a3746; line-height: 2.2em; color: #fff; border-radius: 7px; border: none; padding-left: 20px;}
+.ListItems{  position: absolute; margin-left: 50px !important; top: 0px; width: 1000px; height: 520px; background: #fff; margin: 40px auto; }
+.close{padding:20px;}
+.listcontent{padding: 30px;}
+.from {position: relative; margin-top: 50px; }
+.fromLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.from  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.from input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
+.to {position: relative; margin-top: 50px; }
+.toLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.to  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.to input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
+.weight {position: relative; margin-top: 50px; }
+.weightLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.weight  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.weight input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
+.price {position: relative; margin-top: 50px; }
+.priceLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.price  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.price input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
+.ConfirmBtn{text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none;}
+.vehicleConfirmBtn{ position: absolute; margin-left: 500px !important; top: 0px;text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; margin-top: 500px;}
+/*Search page end */
+
+/*reset passwrd start*/
+.newpassword {position: relative; margin-top: 50px;}
+.newPaswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.newpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.newpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.confirmpassword {position: relative; margin-top: 50px;}
+.cinfirmPswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
+    border-radius: 7px; border: none;}
+/*reset passwrd end*/
+
+/*Dashboard page start*/
+.container{}
+.popupcontent{ position: absolute;  top: 0px; }
+.popupBox{width: 1000px; margin-left: 55px !important; height: 100px; text-align: center; border: 1px solid; margin: 200px auto;padding-top: 10px; background: #fff;}
+.okBtn{background: #2a3746; color: #fff; margin-top: 10px; width: 50px; height: 30px; margin-left: 455px; padding: 5px; cursor: pointer;}
+/*Dashboard page* end/
 
 /* driver signup page strat*/
 
@@ -99,58 +151,3 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /* driver history page End*/
 
 
-/*customer Sign Up Page Start*/
-.Firstname {position: relative; margin-top: 50px; }
-.fnameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.Firstname input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.Lastname {position: relative; margin-top: 50px; }
-.lNameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.Lastname input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
-.register {  text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none; }
-	
-/*customer Sign Up Page End */
-
-/*Search page start*/
-.map{ position: relative;}
-.Search{ position: absolute; margin-left: 50px !important; top: 0px;  width: 1000px;    height: 40px;  margin: 40px auto; background: #2a3746; line-height: 2.2em; color: #fff; border-radius: 7px; border: none; padding-left: 20px;}
-.ListItems{  position: absolute; margin-left: 50px !important; top: 0px; width: 1000px; height: 520px; background: #fff; margin: 40px auto; }
-.close{padding:20px;}
-.listcontent{padding: 30px;}
-.from {position: relative; margin-top: 50px; }
-.fromLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.from  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.from input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.to {position: relative; margin-top: 50px; }
-.toLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.to  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.to input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
-.weight {position: relative; margin-top: 50px; }
-.weightLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.weight  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.weight input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.price {position: relative; margin-top: 50px; }
-.priceLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.price  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.price input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
-.ConfirmBtn{text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none;}
-.vehicleConfirmBtn{ position: absolute; margin-left: 500px !important; top: 0px;text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; margin-top: 500px;}
-/*Search page end */
-
-/*reset passwrd start*/
-.newpassword {position: relative; margin-top: 50px;}
-.newPaswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.newpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.newpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
-.confirmpassword {position: relative; margin-top: 50px;}
-.cinfirmPswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
-.submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
-    border-radius: 7px; border: none;}
-/*reset passwrd end*/
-
-/*Dashboard page*/
-.popupBox{ position: absolute; margin-left: 430px !important; top: 0px;width: 300px; height: 100px; text-align: center; border: 1px solid; margin: 200px auto;padding-top: 10px; background: #fff;}
-.okBtn{background: #2a3746; color: #fff; margin-top: 10px; width: 50px; height: 30px; margin-left: 125px; padding: 5px; cursor: pointer;}

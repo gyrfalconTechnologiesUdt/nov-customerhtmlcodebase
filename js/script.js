@@ -18,7 +18,12 @@ $("#searchCnfrm").click(function(){
 $("#submitLnk").click(function(){
 	alert("Submitted");
 });
-
+$("#loginClDashBd").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/3_customer_dashboadrd.html";	
+});
+$("#close").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/5_customer_searchpage.html";	
+}); 
 
 
 //redirect end	
