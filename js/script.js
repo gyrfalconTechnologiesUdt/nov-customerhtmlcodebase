@@ -1,6 +1,9 @@
 $(document) .ready(function(){
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> b123f5c0fdecfd5dfcc36726bea5d56c80937788
 //redirect start
 $("#regLk").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
@@ -43,6 +46,7 @@ $("#passWrdInpt input").blur(function(e){
 	}
 });
 //Sign In Page End 
+<<<<<<< HEAD
 
 //dashboard popup start
 $("#close").click(function() {
@@ -55,6 +59,9 @@ $("#popUp").load(function() {
 
 //dashboard popup End
 
+=======
+
+>>>>>>> b123f5c0fdecfd5dfcc36726bea5d56c80937788
 //customer Sign Up Page Start
 $("#firstNmInpt input").focus(function(e){
 $("#fnameLbl").addClass("fnameLbl");
@@ -103,7 +110,11 @@ $("#confirmPswrdInpt input").blur(function(e){
 });
 //customer resetpaswrd page End 
 
+<<<<<<< HEAD
 //driver signup page strat
+=======
+// driver signup page strat
+>>>>>>> b123f5c0fdecfd5dfcc36726bea5d56c80937788
 $("#mailIdInput input").focus(function(e){	
 $("#emailLbl").addClass("emailLbl");
 });
@@ -127,8 +138,7 @@ $("#mobileNoInpt input").blur(function(e){
 
 //driver signup page End
 
-//Hamburger menu start
-
+// Hamburger menu start
 $("#menu-button").click(function(){
   $(this).toggleClass("active");
   $("#line-1").toggleClass("active");
@@ -136,9 +146,7 @@ $("#menu-button").click(function(){
   $("#line-3").toggleClass("active");
   $("#menu").slideToggle("slow");
 });
-
-//Hamburger menu end
-
+// Hamburger menu end
 
 //driver history page start
 $(".rectangle1").hide();
@@ -149,4 +157,13 @@ $(".rectangle2").hide();
     }); 	
 //driver history page End
 
+//dashboard popup start
+$("#close").click(function() {
+	$("#popUp").hide();
+});
+	
+$("#popUp").load(function() {
+    $("this").show();
+});
+//dashboard popup End
 });
