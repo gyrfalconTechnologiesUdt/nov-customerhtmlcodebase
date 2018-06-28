@@ -12,9 +12,14 @@ $("#registerLink").click(function(){
 $("#forgotLnk").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/4_customer_forgotpassword.html";	
 }); 
+$("#searchCnfrm").click(function(){
+    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/6_customer_vehicleconfirm.html";	
+}); 
 $("#submitLnk").click(function(){
 	alert("Submitted");
 });
+
+
 
 //redirect end	
 	
@@ -91,6 +96,49 @@ $("#confirmPswrdInpt input").blur(function(e){
 });
 //customer resetpaswrd page End 
 
+//Search page start
+$("#fromInpt input").focus(function(e){	
+$("#fromLbl").addClass("fromLbl");
+});
+
+$("#fromInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#fromLbl").removeClass("fromLbl");
+	}
+});
+$("#toInpt input").focus(function(e){	
+$("#toLbl").addClass("toLbl");
+});
+
+$("#toInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#toLbl").removeClass("toLbl");
+	}
+});
+$("#weightInpt input").focus(function(e){	
+$("#weightLbl").addClass("weightLbl");
+});
+
+$("#weightInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#weightLbl").removeClass("weightLbl");
+	}
+});
+$("#priceInpt input").focus(function(e){	
+$("#priceLbl").addClass("priceLbl");
+});
+
+$("#priceInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#priceLbl").removeClass("priceLbl");
+	}
+});
+//Search page end
+
 // driver signup page strat
 $("#mailIdInput input").focus(function(e){	
 $("#emailLbl").addClass("emailLbl");
@@ -134,6 +182,19 @@ $(".rectangle2").hide();
     }); 	
 //driver history page End
 
+//confirm page popup start
+
+$("#listItmInpt").hide();
+ $("#searchpopUp").click(function(){
+       $("#listItmInpt").show();
+	   $("#searchpopUp").hide();
+ }); 
+$("#CloseId").click(function(){
+	$("#listItmInpt").hide();
+	$("#searchpopUp").show();
+});	
+//confirm page popup end
+
 //dashboard popup start
 $("#close").click(function() {
 	$("#popUp").hide();
@@ -141,6 +202,6 @@ $("#close").click(function() {
 	
 $("#popUp").load(function() {
     $("this").show();
-});
+});	
 //dashboard popup End
 });
