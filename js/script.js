@@ -196,11 +196,13 @@ $("#CloseId").click(function(){
 //confirm page popup end
 
 //poppup message start
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBtn");
-btn.onclick = function() {
-    modal.style.display = "block";
-}
+$("#msgBox").hide();
+$("#popId").click(function(){
+	$("#msgBox").show();
+});
+$("#CloseBut").click(function(){
+	$("#msgBox").hide();
+});
 //poppup message end
 
 
