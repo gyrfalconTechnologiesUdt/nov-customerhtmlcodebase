@@ -1,7 +1,7 @@
 $(document) .ready(function(){
 	
 
-/*redirect start*/
+//redirect start
 $("#regLk").click(function(){
     window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
 }); 
@@ -17,9 +17,9 @@ $("#submitLnk").click(function(){
 	alert("Submitted");
 });
 
-/*redirect end*/	
+//redirect end	
 	
-/*Sign In Page Start*/
+//Sign In Page Start
 $("#userNameInpt input").focus(function(e){	
 $("#usrNmLbl").addClass("usrNmLbl");
 });
@@ -42,9 +42,9 @@ $("#passWrdInpt input").blur(function(e){
 		$("#paswrdLbl").removeClass("paswrdLbl");
 	}
 });
-/*Sign In Page End */
+//Sign In Page End 
 
-/*dashboard popup start*/
+//dashboard popup start
 $("#close").click(function() {
 	$("#popUp").hide();
 });
@@ -52,12 +52,10 @@ $("#close").click(function() {
 $("#popUp").load(function() {
     $("this").show();
 });
-<<<<<<< HEAD
-=======
-/*dashboard popup End*/
 
->>>>>>> 78b98357e33b066b131e4ea8aaf2bf80d5820a34
-/*customer Sign Up Page Start*/
+//dashboard popup End
+
+//customer Sign Up Page Start
 $("#firstNmInpt input").focus(function(e){
 $("#fnameLbl").addClass("fnameLbl");
 });
@@ -79,9 +77,9 @@ $("#lastNmInpt input").blur(function(e){
 		$("#lNameLbl").removeClass("lNameLbl");
 	}
 });
-/*customer Sign Up Page End */
+//customer Sign Up Page End 
 
-/*customer resetpaswrd page End */
+//customer resetpaswrd page End 
 $("#newPswrdInpt input").focus(function(e){	
 $("#newPaswrdLbl").addClass("newPaswrdLbl");
 });
@@ -103,9 +101,9 @@ $("#confirmPswrdInpt input").blur(function(e){
 		$("#cinfirmPswrdLbl").removeClass("cinfirmPswrdLbl");
 	}
 });
-/*customer resetpaswrd page End */
+//customer resetpaswrd page End 
 
-/* driver signup page strat*/
+//driver signup page strat
 $("#mailIdInput input").focus(function(e){	
 $("#emailLbl").addClass("emailLbl");
 });
@@ -127,9 +125,9 @@ $("#mobileNoInpt input").blur(function(e){
 	}
 });
 
-/* driver signup page End*/
+//driver signup page End
 
-/* Hamburger menu start*/
+//Hamburger menu start
 
 $("#menu-button").click(function(){
   $(this).toggleClass("active");
@@ -139,16 +137,16 @@ $("#menu-button").click(function(){
   $("#menu").slideToggle("slow");
 });
 
-/* Hamburger menu end*/
+//Hamburger menu end
 
 
-/*driver history page start*/
+//driver history page start
 $(".rectangle1").hide();
 $(".rectangle2").hide();
  $("#cureentReq").click(function(){
        $(".rectangle1").show();
        $(".rectangle2").show();
     }); 	
-/*driver history page End*/	
+//driver history page End
 
 });
