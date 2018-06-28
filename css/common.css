@@ -134,7 +134,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .accept{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none; margin-left: 20px;}
 .decline{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none;}
 .rightside{float: right;}
-.top1{margin-top: 15px; width: 50%; float: left; margin-left: 32px; border-bottom: 2px solid #000;}
+.top1{margin-top: 15px; float: left; margin-left: 32px; border-bottom: 2px solid #000;}
 .top2{float: right; margin-top: 15px; margin-right: 32px; border-bottom: 2px solid #000; }
 .popupmsg{width: 80%; height: 300px; background-color: #fff; border: 1px solid #000; position: absolute; margin-left: 105px;}
 .msg{text-align:center; margin-top: 130px;}
