@@ -175,13 +175,39 @@ $(".pasreqdetails").hide();
  $("#pastReq").click(function(){
        $(".pasreqdetails").show();
        $(".curreqdetails").hide();
+	   $(".top2").css("border-bottom","3px solid #000");
+	   $(".top1").css("border-bottom","0px solid #000");
     }); 
  $("#cureentReq").click(function(){
        $(".curreqdetails").show();
        $(".pasreqdetails").hide();
-    }); 
+	   $(".top1").css("border-bottom","3px solid #000");
+	   $(".top2").css("border-bottom","0px solid #000");
+    });
+$(".overlay").hide();
+$(".accept").click(function () {
+    $(".overlay").show();
+});
+$("#CloseBut").click(function () {
+    $(".overlay").hide();
+});
+$("#confirmId").click(function () {
+    $(".overlay").hide();
+});	
 //driver history page End
 
+//poppup message start
+$("#msgBox").hide();
+$(".accept").click(function(){
+	$("#msgBox").show();
+});
+$("#CloseBut").click(function(){
+	$("#msgBox").hide();
+});
+$("#confirmId").click(function () {
+    $("#msgBox").hide();
+});	
+//poppup message end
 
 //confirm page popup start
 
@@ -196,15 +222,6 @@ $("#CloseId").click(function(){
 });	
 //confirm page popup end
 
-//poppup message start
-$("#msgBox").hide();
-$("#popId").click(function(){
-	$("#msgBox").show();
-});
-$("#CloseBut").click(function(){
-	$("#msgBox").hide();
-});
-//poppup message end
 
 
 //dashboard popup start
@@ -215,11 +232,8 @@ $(window).on('load', function(){
 	$("#popUp").show();
 });	
 
-
 //dashboard popup End
 
-$("#accbtn").click(function () {
-    $(".overlay").show();
-});
+
 
 });
