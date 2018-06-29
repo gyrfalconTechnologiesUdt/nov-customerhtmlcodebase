@@ -217,4 +217,9 @@ $(window).on('load', function(){
 
 
 //dashboard popup End
+
+$("#accbtn").click(function () {
+    $(".overlay").show();
+});
+
 });
