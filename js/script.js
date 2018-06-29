@@ -211,9 +211,10 @@ $("#CloseBut").click(function(){
 $("#close").click(function() {
 	$("#popUp").hide();
 });
-	
-$("#popUp").load(function() {
-    $("this").show();
+$(window).on('load', function(){ 
+	$("#popUp").show();
 });	
+
+
 //dashboard popup End
 });

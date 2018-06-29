@@ -1,3 +1,6 @@
+
+
+
 /*Common Styles */
 body,html{ margin: 0; padding: 0;}
 body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachment: fixed;	background-size: 100% 100%;background-position: center;}
@@ -55,8 +58,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 
 /*Search page start*/
 .map{ position: relative; width: 100%;}
-.Search{ position: absolute; margin-left: 50px !important; top: 0px;  width: 1000px; height: 40px;  margin: 40px auto; background: #2a3746; line-height: 2.2em; color: #fff; border-radius: 7px; border: none; padding-left: 20px;}
-.ListItems{  position: absolute; margin-left: 50px !important; top: 0px; width: 1000px; height: 520px; background: #fff; margin: 40px auto; }
+.Search{ position: absolute;  top: 20px;  width: 80%; height: 40px; left: 10%; background: #2a3746; line-height: 2.2em; color: #fff; border-radius: 7px; border: none; padding-left: 20px;}
+.ListItems{  position: absolute; top: 20px; width: 80%; left: 10%; height: 520px; background: #fff;  }
 .close{padding:20px;}
 .listcontent{padding: 30px;}
 .from {position: relative; margin-top: 50px; }
@@ -93,14 +96,13 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*reset passwrd end*/
 
 /*Dashboard page start*/
-.container{margin: 0 auto;}
-.popupcontent{ position: absolute; width: 900px; height: 135px; top: 0px; margin: 15px; background-color: #fff; border: 1px solid #000;}
+.popupcontent{ position: fixed; width: 80%; height: 135px; left: 10%;top: 160px; background-color: #fff; border: 1px solid #000;}
 .popupBox{  padding: 20px; text-align: center;}
-.okBtn{ text-align: center; width: 70px; height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}}
-/*Dashboard page* end/
+.okBtn{ text-align: center; width: 70px; height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
+/*Dashboard page* end*/
 
 /*preview page start*/
-.tripdetails{margin-left: 32px;margin-top: 15px; float: left;}
+.nov-prev-tripdt{margin-left: 32px;margin-top: 15px; float: left;}
 .reqdetails{width: 95%; height: 200px; background-color: #fff; margin: 0 auto; margin-top: 50px; border: 1px solid #000;}
 .paymentmethods{margin-top: 15px; float: left; margin-left: 32px;}
 .Paymentmthd{width: 95%; height: 150px; background-color: #fff; margin: 0 auto; margin-top: 50px; border: 1px solid #000;}
