@@ -99,16 +99,45 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*Dashboard page* end*/
 
 /*preview page start*/
-.nov-prev-tripdt{padding: 16px; }
-.arroeimg{float: left; padding: 16px;}
-.reqdetails{width: 95%; height: 200px; background-color: #fff; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
+.nov-prev-tripdt{margin-left: 18px; margin-top: 20px; }
+.arroeimg{float: left; padding: 18px;}
+.reqdetails{width: 95%; height: 200px; background-color: #dbdad8; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
 .leftside{float: left; width: 50%;}
 .rightside{float: left; width: 50%;}
-.paymentmethods{ float: left; padding: 16px; }
-.Paymentmthd{width: 95%; height: 150px; background-color: #fff; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
+.paymentmethods{ float: left;margin-left: 18px; margin-top: 20px;  }
+.Paymentmthd{width: 95%; height: 150px; background-color: #dbdad8; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
 .paytm{margin-top: 40px; margin-left: 20px; cursor: pointer;}
 .cash{margin-top: 30px; margin-left: 20px; cursor: pointer;}
 /*preview page end*/
+
+/*customer customer yourtrips start*/
+.pasttripdt{width: 95%; height: 200px; background-color: #fff; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
+.upcomingTripdt{width: 95%; height: 200px; background-color: #fff; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
+/*customer customer yourtrips start*/
+
+/*customer Account settings start*/
+.userimgicon{margin-left: 20px; margin-top: 30px; float: left;}
+.profiledt{float: left; padding: 35px;}
+.nov-ac-part2{margin-top: 120px; margin-left: 20px}
+.homeimg{width: 25px; float: left;}
+.hometxt{margin-left: 35px;  margin-top: 15px; font-size: 0.90em; cursor: pointer;}
+.workimg{width: 25px; float: left;}
+.addwrktxt{margin-left: 35px;  margin-top: 25px; cursor: pointer;}
+.addmoreplace{ margin-top: 25px; cursor: pointer;}
+.nov-ac-part3{margin-top: 25px; margin-left: 20px}
+.addbp{margin-top: 15px; font-size: 0.90em; cursor: pointer;}
+.privacyset{margin-left: 20px; margin-top: 25px; cursor: pointer;}
+.Signout{margin-left: 20px; margin-top: 25px; cursor: pointer;}
+/*customer Account settings end*/
+
+/*customer privacy settings start*/
+.location-hd{margin-left: 20px; margin-top: 50px; }
+.below-txt1{margin-left: 20px; margin-top: 15px; color: #80808073;}
+.contact-hd{margin-left: 20px; margin-top: 50px;}
+.below-txt2{margin-left: 20px; margin-top: 15px; color: #80808073;}
+.Notifications-hd{margin-left: 20px; margin-top: 50px;}
+.below-txt3{margin-left: 20px; margin-top: 15px; color: #80808073;}
+/*customer privacy settings end*/
 
 /* driver signup page strat*/
 
@@ -143,9 +172,9 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .txt2{padding: 20px;}
 .accept{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none; margin-left: 20px;}
 .decline{  text-align: center; width: 200px;    height: 40px; background: #2a3746; line-height: 2.2em; color: #fff; border: none;}
-.top1{margin-top: 15px; float: left; margin-left: 32px; }
-.top2{float: right; margin-top: 15px; margin-right: 32px;  }
-.borderline{width: 100%;    border: 1px solid #000; margin-top: 41px;}
+.top1{margin-top: 15px; float: left; margin-left: 32px; cursor: pointer;}
+.top2{float: right; margin-top: 15px; margin-right: 32px; cursor: pointer; }
+.borderline{width: 100%; border-bottom: 2px solid #000; margin-top: 41px;}
 .popupmsg{width: 80%; height: 300px; background-color: #fff; border: 1px solid #00000069; position: fixed; z-index: 999; left: 10%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
 .msg{text-align:center; padding-top: 115px;}
 .confirm{text-align: center; width: 200px; height: 40px; background: #2a3746; line-height: 2.6em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
@@ -154,7 +183,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 @media only screen and (max-width: 767px){
 .accept , .decline{width:30%;}
 .txt1 , .txt2{font-size: 0.8em;}
-.paytm, .cash{font-size: 0.8em;}	
+.paytm, .cash, .below-txt1, .below-txt2, .below-txt3{font-size: 0.8em;}	
+.location-hd, .contact-hd, .Notifications-hd{font-size: 1em;}
 }
 /* driver history page End*/
 
