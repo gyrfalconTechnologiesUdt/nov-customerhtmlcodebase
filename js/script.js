@@ -1,6 +1,6 @@
 $(document) .ready(function(){
 	
-//redirect start
+// customer redirect start
 $("#regLk").click(function(){
     window.location.href = "1_customer_login.html";
 }); 
@@ -27,8 +27,15 @@ $("#vehCallPrev").click(function(){
 $("#arrowCall").click(function(){
     window.location.href = "6_customer_vehicleconfirm.html";	
 });
+$("#arrowId-ClAc").click(function(){
+    window.location.href = "customer_Account_settings.html";	
+});
+$("#callPrivacy").click(function(){
+    window.location.href = "customer_privacy_settings.html";	
+});
 
-//redirect end	
+
+//customer redirect end	
 	
 //Sign In Page Start
 $("#userNameInpt input").focus(function(e){	
@@ -178,6 +185,22 @@ function initMap() {
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
 //dashboard map end
+$("#upcomeId").hide();
+$("#pastclId").hide();
+$("#pasttripId").click(function() {
+	$("#pastclId").show();
+	$("#upcomeId").hide();		
+});
+$("#pastclId").hide();
+$("#upcomeId").hide();
+$("#upcomingTripId").click(function() {
+	$("#upcomeId").show();
+	$("#pastclId").hide();		
+});
+//customer trip popup start
+
+
+//customer trip popup end
 
 // driver signup page strat
 $("#mailIdInput input").focus(function(e){	
