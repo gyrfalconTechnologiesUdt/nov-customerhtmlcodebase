@@ -2,29 +2,31 @@ $(document) .ready(function(){
 	
 //redirect start
 $("#regLk").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/1_customer_login.html";
+    window.location.href = "1_customer_login.html";
 }); 
 
 $("#registerLink").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/2_customer_signup.html";
+    window.location.href = "2_customer_signup.html";
 }); 
 
 $("#forgotLnk").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/4_customer_forgotpassword.html";	
+    window.location.href = "4_customer_forgotpassword.html";	
 }); 
 $("#searchCnfrm").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/6_customer_vehicleconfirm.html";	
+    window.location.href = "6_customer_vehicleconfirm.html";	
 }); 
 $("#submitLnk").click(function(){
 	alert("Submitted");
 });
 $("#loginClDashBd").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/3_customer_dashboadrd.html";	
+    window.location.href = "3_customer_dashboadrd.html";	
 });
-$("#close").click(function(){
-    window.location.href = "file:///D:/projects/NOV/novhtmlbasecode/nov-htmlcodebase/5_customer_searchpage.html";	
-}); 
-
+$("#vehCallPrev").click(function(){
+    window.location.href = "7_customer_previewpage.html";	
+});
+$("#arrowCall").click(function(){
+    window.location.href = "6_customer_vehicleconfirm.html";	
+});
 
 //redirect end	
 	
@@ -225,8 +227,10 @@ $("#CloseId").click(function(){
 
 
 //dashboard popup start
+$("#searchpopUp").hide();
 $("#close").click(function() {
-	$("#popUp").hide();
+	$("#searchpopUp").show();
+	$("#popUp").hide();		
 });
 $(window).on('load', function(){ 
 	$("#popUp").show();
@@ -234,6 +238,12 @@ $(window).on('load', function(){
 
 //dashboard popup End
 
-
-
+//dashboard map start
+function initMap() {
+  var uluru = {lat: -25.344, lng: 131.036};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+//dashboard map end
 });
