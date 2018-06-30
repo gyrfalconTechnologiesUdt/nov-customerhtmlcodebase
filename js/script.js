@@ -4,7 +4,15 @@ $(document) .ready(function(){
 $("#regLk").click(function(){
     window.location.href = "1_customer_login.html";
 }); 
-
+$("#fblnk").click(function(){
+    window.location.href = "https://www.facebook.com/";
+}); 
+$("#googlelnk").click(function(){
+    window.location.href = "https://plus.google.com/";
+}); 
+$("#twitterlnk").click(function(){
+    window.location.href = "https://twitter.com/";
+}); 
 $("#registerLink").click(function(){
     window.location.href = "2_customer_signup.html";
 }); 
