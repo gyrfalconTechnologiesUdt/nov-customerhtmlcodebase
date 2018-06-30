@@ -15,16 +15,16 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .logintitle{margin-top: 30px;}
 .logoimg{text-align: center; }
 .loginformCointainer{ margin: 20px 0px; }
-.signinTxt{ font-size: 1.2em; font-weight: bold;}
-.username {position: relative; margin-top: 50px; }
-.usrNmLbl{top: -35px !important; color: #2a3746 !important;  font-size: 0.80em !important;}
+.nov-h1{ font-size: 1.2em; font-weight: bold;}
+.username {position: relative; margin-top: 40px; }
+.usrNmLbl{top: -25px !important; color: #2a3746 !important;  font-size: 0.80em !important;}
 .username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .username input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 
-.password {position: relative; margin-top: 50px;}
-.paswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.password {position: relative; margin-top: 40px;}
+.paswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
-.password input[type=text]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.password input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
 .b-Line{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
 input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !important;}
 .loginbutton{ text-align: center; width: 230px;    height: 40px;    margin: 0px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;  border-radius: 7px; border: none; margin-top: 25px;    margin-bottom: 25px;}
@@ -44,12 +44,12 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 
 
 /*customer Sign Up Page Start*/
-.Firstname {position: relative; margin-top: 50px; }
-.fnameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.Firstname {position: relative; margin-top: 40px; }
+.fnameLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .Firstname input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.Lastname {position: relative; margin-top: 50px; }
-.lNameLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.Lastname {position: relative; margin-top: 40px; }
+.lNameLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .Lastname input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .register {  text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none; }
@@ -62,20 +62,20 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .ListItems{  position: absolute; top: 20px; width: 80%; left: 10%; height: 520px; background: #fff;  }
 .close{padding:20px;}
 .listcontent{padding: 30px;}
-.from {position: relative; margin-top: 50px; }
-.fromLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.from {position: relative; margin-top: 40px; }
+.fromLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .from  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .from input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.to {position: relative; margin-top: 50px; }
-.toLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.to {position: relative; margin-top: 40px; }
+.toLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .to  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .to input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
-.weight {position: relative; margin-top: 50px; }
-.weightLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.weight {position: relative; margin-top: 40px; }
+.weightLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .weight  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .weight input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
-.price {position: relative; margin-top: 50px; }
-.priceLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.price {position: relative; margin-top: 40px; }
+.priceLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .price  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .price input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .ConfirmBtn{text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; border: none;}
@@ -83,12 +83,12 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*Search page end */
 
 /*reset passwrd start*/
-.newpassword {position: relative; margin-top: 50px;}
-.newPaswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.newpassword {position: relative; margin-top: 40px;}
+.newPaswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .newpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .newpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
-.confirmpassword {position: relative; margin-top: 50px;}
-.cinfirmPswrdLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.confirmpassword {position: relative; margin-top: 40px;}
+.cinfirmPswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
 .confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
 .submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
@@ -119,8 +119,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .line{position: absolute; }
 .signinbutton{  width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #e7e7e7;
     border-radius: 7px; text-align: center}
-.usermobileno{position: relative; margin-top: 50px;}
-.mblNoLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important; }
+.usermobileno{position: relative; margin-top: 40px;}
+.mblNoLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important; }
 .usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; }
 .usermobileno input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .emailid{position: relative; margin-top: 50px;}
