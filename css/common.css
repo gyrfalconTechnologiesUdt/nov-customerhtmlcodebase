@@ -1,6 +1,4 @@
 
-
-
 /*Common Styles */
 body,html{ margin: 0; padding: 0;}
 body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachment: fixed;	background-size: 100% 100%;background-position: center;}
@@ -191,10 +189,12 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /* driver history page End*/
 
 /* driver settings page start*/
-.section1{background-color: #2a3746; height: 60px;}
-.heading{text-align: center; color: #e7e7e7; padding: 16px;}
-.address{position: relative; margin-top: 50px;}
+.address{position: relative;}
 .addressLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .address label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; }
 .address input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
+.borderline{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
+.delete{margin-top: 35px;}
+.line{display: block; width: 110px; line-height: 1.5; color: #000; border: 1px solid #000;}
+.fa{float: right;}
 /* driver settings page End*/
