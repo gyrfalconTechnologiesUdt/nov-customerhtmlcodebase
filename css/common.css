@@ -16,16 +16,16 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .nov-form-h1{ font-size: 1.2em; font-weight: bold;}
 .username {position: relative; margin-top: 30px; }
 .usrNmLbl{top: -25px !important; color: #2a3746 !important;  font-size: 0.80em !important;}
-.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.username  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .username input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .password {position: relative; margin-top: 30px;}
 .paswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .password input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
 .b-Line{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
 input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !important;}
 .loginbutton{ text-align: center; width: 230px;    height: 40px;    margin: 0px auto; cursor: pointer;   background: #2a3746;   line-height: 2.2em;   color: #fff;  border-radius: 7px; border: none; margin-top: 25px;    margin-bottom: 25px;}
-.socialMediaicons{ margin-top: 20px; width: 290px; margin-left: 95px;}
+.socialMediaicons{ margin-top: 20px; width: 290px; margin-left: 95px; cursor: pointer;}
 .signInWithTxt{ font-size: 12px; font-weight: bold; color: #000; text-align: center;}
 .frgtpwrd  {	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: left; margin: 15px 0; cursor: pointer;}
 .registernow{	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: right; margin: 15px 0;cursor: pointer;}
@@ -43,11 +43,11 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*customer Sign Up Page Start*/
 .Firstname {position: relative; margin-top: 30px; }
 .fnameLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.Firstname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .Firstname input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .Lastname {position: relative; margin-top: 40px; }
 .lNameLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.Lastname  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .Lastname input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .register {  text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em; cursor: pointer;  color: #fff; border-radius: 7px; border: none; }
 	
@@ -61,19 +61,19 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .listcontent{padding: 30px;}
 .from {position: relative; margin-top: 40px; }
 .fromLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.from  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.from  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .from input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .to {position: relative; margin-top: 60px; }
 .toLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.to  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.to  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .to input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .weight {position: relative; margin-top: 60px; }
 .weightLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.weight  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.weight  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .weight input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);}
 .price {position: relative; margin-top: 60px; }
 .priceLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.price  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.price  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .price input[type=text]	{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .ConfirmBtn{text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em; cursor: pointer;  color: #fff; border-radius: 7px; border: none;}
 .vehicleConfirmBtn{ position: absolute; margin-left: 500px !important; top: 0px;text-align: center; width: 230px;    height: 40px;  cursor: pointer;  margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff; border-radius: 7px; margin-top: 500px;}
@@ -82,11 +82,11 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*reset passwrd start*/
 .newpassword {position: relative; margin-top: 40px;}
 .newPaswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.newpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.newpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .newpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
 .confirmpassword {position: relative; margin-top: 40px;}
 .cinfirmPswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s;}
+.confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
 .submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; border: none; cursor: pointer;}
@@ -101,13 +101,15 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*preview page start*/
 .nov-prev-tripdt{margin-left: 18px; margin-top: 20px; }
 .arroeimg{float: left; padding: 18px;}
-.reqdetails{width: 95%; height: 200px; background-color: #dbdad8; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
+.reqdetails{width: 95%; height: 155px; background-color: #dbdad8; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
 .leftside{float: left; width: 50%;}
+.text1{margin-top: 20px; margin-left: 20px;}
+.text2{margin-top: 20px; margin-left: 20px;}
 .rightside{float: left; width: 50%;}
 .paymentmethods{ float: left;margin-left: 18px; margin-top: 20px;  }
-.Paymentmthd{width: 95%; height: 150px; background-color: #dbdad8; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
-.paytm{margin-top: 40px; margin-left: 20px; cursor: pointer;}
-.cash{margin-top: 30px; margin-left: 20px; cursor: pointer;}
+.Paymentmthd{width: 95%; height: 110px; background-color: #dbdad8; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
+.paytm{margin-top: 20px; margin-left: 20px; cursor: pointer;}
+.cash{margin-top: 20px; margin-left: 20px; cursor: pointer;}
 /*preview page end*/
 
 /*customer customer yourtrips start*/
@@ -150,11 +152,11 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
     border-radius: 7px; text-align: center}
 .usermobileno{position: relative; margin-top: 40px;}
 .mblNoLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important; }
-.usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; }
+.usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .usermobileno input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .emailid{position: relative; margin-top: 40px;}
 .emailLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.emailid label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; }
+.emailid label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .emailid input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .licensefile{margin-top: 40px;}
 .chkboxtext{margin-top: 40px;}
@@ -191,7 +193,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /* driver settings page start*/
 .address{position: relative;}
 .addressLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.address label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; }
+.address label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; pointer-events: none; }
 .address input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .borderline{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
 .delete{margin-top: 35px;}
