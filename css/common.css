@@ -113,8 +113,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /*preview page end*/
 
 /*customer customer yourtrips start*/
-.pasttripdt{width: 95%; height: 200px; background-color: #fff; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
-.upcomingTripdt{width: 95%; height: 200px; background-color: #fff; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
+.pasttripdt{width: 95%; height: 200px; background-color: #dbdad8; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
+.upcomingTripdt{width: 95%; height: 200px; background-color: #dbdad8; margin: 0 auto; margin-top: 40px; border: 1px solid #00000069; }
 /*customer customer yourtrips start*/
 
 /*customer Account settings start*/
