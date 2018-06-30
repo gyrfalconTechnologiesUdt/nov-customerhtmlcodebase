@@ -146,6 +146,39 @@ $("#priceInpt input").blur(function(e){
 });
 //Search page end
 
+//confirm page popup start
+
+$("#listItmInpt").hide();
+ $("#searchpopUp").click(function(){
+       $("#listItmInpt").show();
+	   $("#searchpopUp").hide();
+ }); 
+$("#CloseId").click(function(){
+	$("#listItmInpt").hide();
+	$("#searchpopUp").show();
+});	
+//confirm page popup end
+
+//dashboard popup start
+$("#searchpopUp").hide();
+$("#close").click(function() {
+	$("#searchpopUp").show();
+	$("#popUp").hide();		
+});
+$(window).on('load', function(){ 
+	$("#popUp").show();
+});	
+//dashboard popup End
+
+//dashboard map start
+function initMap() {
+  var uluru = {lat: -25.344, lng: 131.036};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+//dashboard map end
+
 // driver signup page strat
 $("#mailIdInput input").focus(function(e){	
 $("#emailLbl").addClass("emailLbl");
@@ -211,39 +244,17 @@ $("#confirmId").click(function () {
 });	
 //poppup message end
 
-//confirm page popup start
-
-$("#listItmInpt").hide();
- $("#searchpopUp").click(function(){
-       $("#listItmInpt").show();
-	   $("#searchpopUp").hide();
- }); 
-$("#CloseId").click(function(){
-	$("#listItmInpt").hide();
-	$("#searchpopUp").show();
-});	
-//confirm page popup end
-
-
-
-//dashboard popup start
-$("#searchpopUp").hide();
-$("#close").click(function() {
-	$("#searchpopUp").show();
-	$("#popUp").hide();		
+//driver settings page start
+$("#addressId input").focus(function(e){	
+$("#addressLbl").addClass("addressLbl");
 });
-$(window).on('load', function(){ 
-	$("#popUp").show();
-});	
+$("#addressId input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#addressLbl").removeClass("addressLbl");
+	}
+});
 
-//dashboard popup End
+//driver settings page End
 
-//dashboard map start
-function initMap() {
-  var uluru = {lat: -25.344, lng: 131.036};
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-//dashboard map end
 });
