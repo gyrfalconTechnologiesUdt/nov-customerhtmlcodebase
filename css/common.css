@@ -162,8 +162,20 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 /* driver signup page End*/
 
 /* driver history page strat*/
-.header{background-color: #2a3746; height: 60px;}
-.headings{text-align: center; color: #e7e7e7; padding: 16px;}
+.nov-heading{background-color: #2a3746; height: 50px; color: #e7e7e7; text-align: center; line-height: 3em;}
+.cardView-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
+.nov-dbp-cardView{     margin-top: 15px;     padding-bottom: 10px;   background: #e4ddddcc;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.leftInfo{    width: 50%;    float: left; padding-left: 10px;    padding-top: 10px; }
+.rightInfo{    width: 50%;    float: left;padding-left: 10px;    padding-top: 10px; }
+/*.nov-dbp-cardView div:last-child {    padding-bottom: 10px;}*/
+
+
+
+
+
+
+
+
 .leftside{width: 50%; float: left;}
 .rightside{float: left; width: 50%;}
 .curreqdetails{width: 95%; height: 250px; background-color: #fff; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069; position: relative;}
