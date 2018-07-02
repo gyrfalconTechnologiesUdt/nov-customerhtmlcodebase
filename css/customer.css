@@ -44,24 +44,23 @@
 /*Search page end */
 
 /*preview page start*/
-.nov-prev-tripdt{margin-left: 18px; margin-top: 20px; }
-.arroeimg{float: left; padding: 18px;}
-.reqdetails{width: 95%; height: 155px; background-color: #dbdad8; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
+.nov-prev-tripdt{margin-left: 30px; margin-top: 20px; }
+.reqdetails{margin-top: 15px;  height: 215px;   padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .leftside{float: left; width: 50%;}
 .text1{margin-top: 20px; margin-left: 20px;}
 .text2{margin-top: 20px; margin-left: 20px;}
 .rightside{float: left; width: 50%;}
-.paymentmethods{ float: left;margin-left: 18px; margin-top: 20px;  }
-.Paymentmthd{width: 95%; height: 110px; background-color: #dbdad8; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
+.paymentmethods{ float: left;margin-left: 30px; margin-top: 20px;  }
+.Paymentmthd{ height: 110px; background-color: #dbdad8;  margin-top: 50px; border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .paytm{margin-top: 20px; margin-left: 20px; cursor: pointer;}
 .cash{margin-top: 20px; margin-left: 20px; cursor: pointer;}
 /*preview page end*/
 
 /*customer customer yourtrips start*/
-.arroeimg{float: left; margin-left: 15px;  margin-top: 15px;}
+.arroeimg{float: left; margin-left: 15px;  }
 .nov-tripdt-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
-.pasttripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #00000069 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.upcomingTripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #00000069 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.pasttripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.upcomingTripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .leftInfo{    width: 50%;    float: left; padding-left: 10px;    padding-top: 10px; }
 .rightInfo{    width: 50%;    float: left;padding-left: 10px;    padding-top: 10px; }
 /*customer customer yourtrips start*/

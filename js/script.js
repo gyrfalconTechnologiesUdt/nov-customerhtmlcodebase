@@ -92,6 +92,26 @@ $("#lastNmInpt input").blur(function(e){
 		$("#lNameLbl").removeClass("lNameLbl");
 	}
 });
+$("#mailIdInput input").focus(function(e){
+$("#emailLbl").addClass("emailLbl");
+});
+
+$("#mailIdInput input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#emailLbl").removeClass("emailLbl");
+	}
+});
+$("#mobileNoInpt input").focus(function(e){
+$("#mblNoLbl").addClass("mblNoLbl");
+});
+
+$("#mobileNoInpt input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#mblNoLbl").removeClass("mblNoLbl");
+	}
+});
 //customer Sign Up Page End 
 
 //customer resetpaswrd page End 
@@ -193,17 +213,19 @@ function initMap() {
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
 //dashboard map end
-$("#upcomeId").hide();
-$("#pastclId").hide();
-$("#pasttripId").click(function() {
-	$("#pastclId").show();
-	$("#upcomeId").hide();		
-});
+
+//customer trip popup start
 $("#pastclId").hide();
 $("#upcomeId").hide();
-$("#upcomingTripId").click(function() {
-	$("#upcomeId").show();
-	$("#pastclId").hide();		
-});
+ $("#pasttripId").click(function(){
+       $("#pastclId").show();
+	   $("#upcomeId").hide();
+ }); 
+ $("#upcomeId").hide();
+$("#pastclId").hide();
+ $("#upcomingTripId").click(function(){
+       $("#upcomeId").show();
+	   $("#pastclId").hide();
+ }); 
 //customer trip popup start
 });
