@@ -47,13 +47,11 @@
 .nov-prev-tripdt{margin-left: 30px; margin-top: 20px; }
 .reqdetails{margin-top: 15px;  height: 215px;   padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .leftside{float: left; width: 50%;}
-.text1{margin-top: 20px; margin-left: 20px;}
-.text2{margin-top: 20px; margin-left: 20px;}
 .rightside{float: left; width: 50%;}
 .paymentmethods{ float: left;margin-left: 30px; margin-top: 20px;  }
-.Paymentmthd{ height: 110px; background-color: #dbdad8;  margin-top: 50px; border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.paytm{margin-top: 20px; margin-left: 20px; cursor: pointer;}
-.cash{margin-top: 20px; margin-left: 20px; cursor: pointer;}
+.Paymentmthd{ height: 80px; background-color: #dbdad8;  margin-top: 50px; border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.paytm{float: left; width: 50%; cursor: pointer;}
+.cash{float: left; width: 50%; cursor: pointer;}
 /*preview page end*/
 
 /*customer customer yourtrips start*/

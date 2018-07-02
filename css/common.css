@@ -60,19 +60,6 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .okBtn{ text-align: center; width: 70px; height: 40px; background: #2a3746; line-height: 2.6em;cursor: pointer; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
 /*Dashboard page* end*/
 
-/*preview page start*/
-.nov-prev-tripdt{margin-left: 18px; margin-top: 20px; }
-.arroeimg{float: left; padding: 18px;}
-.reqdetails{width: 95%; height: 155px; background-color: #dbdad8; margin-left: 32px; margin: 0 auto; margin-top: 30px; border: 1px solid #00000069;}
-.leftside{float: left; width: 50%;}
-.text1{margin-top: 20px; margin-left: 20px;}
-.text2{margin-top: 20px; margin-left: 20px;}
-.rightside{float: left; width: 50%;}
-.paymentmethods{ float: left;margin-left: 18px; margin-top: 20px;  }
-.Paymentmthd{width: 95%; height: 110px; background-color: #dbdad8; margin: 0 auto; margin-top: 50px; border: 1px solid #00000069;}
-.paytm{margin-top: 20px; margin-left: 20px; cursor: pointer;}
-.cash{margin-top: 20px; margin-left: 20px; cursor: pointer;}
-/*preview page end*/
 
 
 
