@@ -216,16 +216,19 @@ function initMap() {
 
 //customer trip popup start
 $("#pastclId").hide();
-$("#upcomeId").hide();
+$("#upcomeId").show();
  $("#pasttripId").click(function(){
        $("#pastclId").show();
 	   $("#upcomeId").hide();
+	   $(".top1").css("border-bottom", "3px solid #000")
+	   $(".top2").css("border-bottom", "0px solid #000")
  }); 
- $("#upcomeId").hide();
-$("#pastclId").hide();
+  $(".top2").css("border-bottom", "3px solid #000")
  $("#upcomingTripId").click(function(){
        $("#upcomeId").show();
 	   $("#pastclId").hide();
+	   $(".top2").css("border-bottom", "3px solid #000")
+	   $(".top1").css("border-bottom", "0px solid #000")
  }); 
 //customer trip popup start
 });

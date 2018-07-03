@@ -44,24 +44,20 @@
 /*Search page end */
 
 /*preview page start*/
-.nov-prevdt-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
-.nov-prev-tripdt{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
-.reqdetails{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.leftside{float: left; width: 50%;  padding-left: 10px;    padding-top: 10px;}
+.nov-prevdt-container, .nov-prev-tripdt, .paymentmethods{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
+.reqdetails, .Paymentmthd{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #00000069; border-radius: 5px; -webkit-border-radius: 5px;}
+.leftside, .rightside{float: left; width: 50%;  padding-left: 10px;    padding-top: 10px;}
 .rightside{float: left; width: 50%;  padding-left: 10px;    padding-top: 10px;}
-.paymentmethods{padding-left: 15px; padding-right: 15px; margin-top: 15px;  }
-.Paymentmthd{  margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .paytm{float: left; width: 50%; cursor: pointer;  padding-left: 10px;    padding-top: 10px;}
 .cash{float: left; width: 50%; cursor: pointer; padding-left: 10px;    padding-top: 10px;}
 /*preview page end*/
 
 /*customer  yourtrips start*/
+.bottomline{border-bottom: 2px solid #00000069;  margin-top: 41px;}
 .arroeimg{float: left; margin-left: 15px; margin-top: 15px; }
 .nov-tripdt-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
-.pasttripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.upcomingTripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.leftInfo{    width: 50%;    float: left; padding-left: 10px;    padding-top: 10px; }
-.rightInfo{    width: 50%;    float: left;padding-left: 10px;    padding-top: 10px; }
+.pasttripdt, .upcomingTripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #00000069; border-radius: 5px; -webkit-border-radius: 5px;}
+.leftInfo, .rightInfo{    width: 50%;    float: left; padding-left: 10px;    padding-top: 10px; }
 /*customer yourtrips start*/
 
 /*customer Account settings start*/
