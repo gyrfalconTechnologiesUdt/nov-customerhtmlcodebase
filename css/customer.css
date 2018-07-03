@@ -13,7 +13,7 @@
 .cinfirmPswrdLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .confirmpassword  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .confirmpassword input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
-.submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.2em;   color: #fff;
+.submitbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #2a3746;   line-height: 2.5em;   color: #fff;
     border-radius: 7px; border: none; cursor: pointer;}
 /*reset passwrd end*/	
 	
@@ -44,24 +44,25 @@
 /*Search page end */
 
 /*preview page start*/
-.nov-prev-tripdt{margin-left: 30px; margin-top: 20px; }
-.reqdetails{margin-top: 15px;  height: 215px;   padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.leftside{float: left; width: 50%;}
-.rightside{float: left; width: 50%;}
-.paymentmethods{ float: left;margin-left: 30px; margin-top: 20px;  }
-.Paymentmthd{ height: 80px; background-color: #dbdad8;  margin-top: 50px; border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
-.paytm{float: left; width: 50%; cursor: pointer;}
-.cash{float: left; width: 50%; cursor: pointer;}
+.nov-prevdt-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
+.nov-prev-tripdt{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
+.reqdetails{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.leftside{float: left; width: 50%;  padding-left: 10px;    padding-top: 10px;}
+.rightside{float: left; width: 50%;  padding-left: 10px;    padding-top: 10px;}
+.paymentmethods{padding-left: 15px; padding-right: 15px; margin-top: 15px;  }
+.Paymentmthd{  margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
+.paytm{float: left; width: 50%; cursor: pointer;  padding-left: 10px;    padding-top: 10px;}
+.cash{float: left; width: 50%; cursor: pointer; padding-left: 10px;    padding-top: 10px;}
 /*preview page end*/
 
-/*customer customer yourtrips start*/
-.arroeimg{float: left; margin-left: 15px;  }
+/*customer  yourtrips start*/
+.arroeimg{float: left; margin-left: 15px; margin-top: 15px; }
 .nov-tripdt-container{padding-left: 15px; padding-right: 15px; margin-top: 15px;}
 .pasttripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .upcomingTripdt{ margin-top: 15px;     padding-bottom: 10px;   background: #dbdad8 ;  border: 2px solid #bfbdbd; border-radius: 5px; -webkit-border-radius: 5px;}
 .leftInfo{    width: 50%;    float: left; padding-left: 10px;    padding-top: 10px; }
 .rightInfo{    width: 50%;    float: left;padding-left: 10px;    padding-top: 10px; }
-/*customer customer yourtrips start*/
+/*customer yourtrips start*/
 
 /*customer Account settings start*/
 .userimgicon{margin-left: 20px; margin-top: 30px; float: left;}
