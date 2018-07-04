@@ -78,7 +78,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .usermobileno label{ color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .usermobileno input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .emailid{position: relative; margin-top: 40px;}
-.emailLbl{top: -35px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.emailLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .emailid label{color: rgb(188,188,188); position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .emailid input[type=text] {background: transparent; border: 0; outline: 0; border-bottom: 1px solid rgb(188,188,188);	}
 .licensefile{margin-top: 40px;}

@@ -230,5 +230,6 @@ $("#upcomeId").show();
 	   $(".top2").css("border-bottom", "3px solid #000")
 	   $(".top1").css("border-bottom", "0px solid #000")
  }); 
-//customer trip popup start
+//customer trip popup start\
+
 });
