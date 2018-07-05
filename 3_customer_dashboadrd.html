@@ -10,16 +10,24 @@
         <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
         <script type="text/javascript" src= "js/script.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"> </script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="nov-dashbrd-container">
+		<nav> 
+			<a href="" id="menuToggle" title="show menu"> <span class="navClosed"><i>show menu</i></span> </a> 
+			<a href="#" title="Item 1">Your Trips</a> 
+			<a href="#" title="Item 2">Payment</a> 
+			<a href="#" title="Item 3">settings</a> 
+			<a href="#" title="Item 3">Become a Driver</a>
+			<a href="#" title="Item 3">Log Out</a> 
+		</nav>
 		<div id="map"></div>
 		<div class="popupcontent" id="popUp">
 			<div class="popupBox" >Turn on location services</div>	
 			<div class="okBtn" id="close">Ok</div>
-		</div>		
-			<div class="Search" id="searchpopUp">Search</div>
+		</div>	
+		<div class="Search" id="searchpopUp">Search</div>
 		<div class="ListItems" id="listItmInpt">
 			<img src="img/close.png" class="close" id="CloseId">
 			<div class="listcontent">

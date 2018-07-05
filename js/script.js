@@ -194,6 +194,25 @@ $("#CloseId").click(function(){
 });	
 //confirm page popup end
 
+// menu start
+
+(function($){
+	$(document).ready(function(){
+  	$('#menuToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+// menu end
+
 //dashboard popup start
 $("#searchpopUp").hide();
 $("#close").click(function() {
@@ -230,6 +249,25 @@ $("#upcomeId").show();
 	   $(".top2").css("border-bottom", "3px solid #000")
 	   $(".top1").css("border-bottom", "0px solid #000")
  }); 
-//customer trip popup start\
+//customer trip popup start
+
+// customer settings start
+$("#addressId input").focus(function(e){	
+$("#addressLbl").addClass("addressLbl");
+});
+
+$("#addressId input").blur(function(e){
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
+		$("#addressLbl").removeClass("addressLbl");
+	}
+});
+// customer settings end
+
+//customer payment page start
+$("#paytmid").click(function(){
+    window.location.href = "https://paytm.com/";	
+});
+//customer payment page start
 
 });

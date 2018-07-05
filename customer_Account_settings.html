@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Nmmaooruvandi Accountsettings</title>
+        <title>Nmmaooruvandi settings</title>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">
 		<link type="text/css" rel="stylesheet" href="css/mdb.min.css">  
@@ -17,27 +17,28 @@
 			<img src="img/lftarroe.png" class="arroeimg" id="arrowId-Menu">
 			<div class= "nov-heading">Account settings</div>
 		</div>
-		<div class="nov-ac-part1">
-			<img src="img/userimg.png" class="userimgicon">
-			<div class="profiledt">
-				<div class="profileName">Gayathri.L</div>
-				<div class="profilePhNo">+91 8870033976</div>
-			</div>
-		</div>
-		<div class="nov-ac-part2">
-			<div class="favorit">Favorites</div>
-				<div class="nov-ac-hmArea">
-					<img src="img/home.png" class="homeimg">
-					<div class="hometxt" id="">Add Home</div>
-				</div>	
-			<div class="addmoreplace" id="">More Saved Places</div>
-		</div>
-		<div class="nov-ac-part3">
-			<div class="profile">Profile</div>
-				<div class="addbp" id="">Add Bussiness Profile</div>
-		</div>
-		<div class="privacyset" id="callPrivacy">Privacy Settings</div>
-		<div class="Signout" id="">Sign Out</div>
+		<form class = "settingpage">
+				<div class="Firstname" id="firstNmInpt">
+					<label for="form1" id="fnameLbl">Firstname</label>
+					<input type="text" class="b-Line">			
+				</div>
+				<i class="fa fa-edit"></i>
+				<div class="Lastname" id="lastNmInpt">
+					<label for="form1" id="lNameLbl">Lastname</label>
+					<input type="text" class="b-Line">
+				</div>
+				<i class="fa fa-edit"></i>
+				<div class="emailid" id="mailIdInput">
+					<label for="form1" id="emailLbl">Email Id</label>
+					<input type="text" class="b-Line">
+				</div>
+				<i class="fa fa-edit"></i>
+				<div class="usermobileno" id="mobileNoInpt">
+					<label for="form1" class="active" id="mblNoLbl">Mobile No</label>
+					<input type="text" class="borderline">
+				</div>
+				<i class="fa fa-edit" ></i>
+        </form>		
 	</div>
 	</body>
 </html>	
