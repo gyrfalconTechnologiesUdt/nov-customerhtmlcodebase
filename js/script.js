@@ -87,21 +87,21 @@ $("#userNameInpt input").blur(function(e){
 		$("#usrNmLbl").removeClass("usrNmLbl");
 		
 	}
-	success: function(response){
-      if (response == 'taken' ) {
-      	username_state = false;
-      	$('#username').parent().removeClass();
-      	$('#username').parent().addClass("form_error");
-      	$('#username').siblings("span").text('Sorry... Username already taken');
-      }else if (response == 'not_taken') {
-      	username_state = true;
-      	$('#username').parent().removeClass();
-      	$('#username').parent().addClass("form_success");
-      	$('#username').siblings("span").text('Username available');
-      }
+});	
+function Validate() {
+    var txtUsername = document.getElementById("gayathri").value;
+	var txtPassword = document.getElementById("pavithra").value;
+    if (txtUsername!= gayathri) {
+        alert("Passwords do not match.");
+        return false;
     }
-  });
-});
+    return true;
+	if (txtPassword!= pavithra) {
+        alert("Passwords do not match.");
+        return false;
+    }
+    return true;
+}
 
 $("#passWrdInpt input").focus(function(e){	
 $("#paswrdLbl").addClass("paswrdLbl");
@@ -289,6 +289,9 @@ $("#addressId input").blur(function(e){
 	if(inputVal === ''){
 		$("#addressLbl").removeClass("addressLbl");
 	}
+});
+$("#editid1").click(function(e){	
+$("#fnameid").focus();
 });
 // customer settings end
 

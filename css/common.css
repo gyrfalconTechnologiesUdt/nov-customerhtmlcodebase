@@ -30,6 +30,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 .frgtpwrd  {	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: left; margin: 15px 0; cursor: pointer;}
 .registernow{	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: right; margin: 15px 0;cursor: pointer;}
 	a{color: #e7e7e7; !important}
+	
 /*Media Query*/
 
 @media only screen and (max-width: 320px) and (min-width: 350px)  {
