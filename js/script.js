@@ -1,9 +1,12 @@
 $(document) .ready(function(){
 	
-// customer redirect start
+// customer sign up redirect start
 $("#regLk").click(function(){
     window.location.href = "1_customer_login.html";
 }); 
+// customer sign up redirect end
+
+// customer sign In redirect start
 $("#fblnk").click(function(){
     window.location.href = "https://www.facebook.com/";
 }); 
@@ -20,15 +23,30 @@ $("#registerLink").click(function(){
 $("#forgotLnk").click(function(){
     window.location.href = "4_customer_forgotpassword.html";	
 }); 
-$("#searchCnfrm").click(function(){
-    window.location.href = "6_customer_vehicleconfirm.html";	
-}); 
-$("#submitLnk").click(function(){
-	alert("Submitted");
-});
 $("#loginClDashBd").click(function(){
     window.location.href = "3_customer_dashboadrd.html";	
 });
+// customer sign In redirect end
+
+// menu redirect start
+$("#paymentId").click(function(){
+    window.location.href = "customer_paymentmethods.html";	
+});
+$("#tripId").click(function(){
+    window.location.href = "customre_yourtrips_page.html";	
+});
+$("#settingId").click(function(){
+    window.location.href = "customer_Account_settings.html";	
+});
+$("#lgoutback").click(function(){
+    window.location.href = "1_customer_login.html";	
+});
+// menu redirect end
+
+// customer dasbboard redirect start
+$("#searchCnfrm").click(function(){
+    window.location.href = "6_customer_vehicleconfirm.html";	
+}); 
 $("#vehCallPrev").click(function(){
     window.location.href = "7_customer_previewpage.html";	
 });
@@ -38,12 +56,25 @@ $("#arrowCall").click(function(){
 $("#arrowId-ClAc").click(function(){
     window.location.href = "customer_Account_settings.html";	
 });
-$("#callPrivacy").click(function(){
-    window.location.href = "customer_privacy_settings.html";	
+// customer dasbboard redirect end
+
+// customer payment redirect start
+$("#arrowId-Menu").click(function(){
+    window.location.href = "3_customer_dashboadrd.html";	
 });
+// customer payment redirect end
 
+// customer trip redirect start
+$("#triparrowId-Menu").click(function(){
+    window.location.href = "3_customer_dashboadrd.html";	
+});
+// customer trip redirect end
 
-//customer redirect end	
+// customer reset paswrd redirect start
+$("#submitLnk").click(function(){
+	alert("Submitted");
+});
+// customer reset paswrd redirect end
 	
 //Sign In Page Start
 $("#userNameInpt input").focus(function(e){	
@@ -56,6 +87,20 @@ $("#userNameInpt input").blur(function(e){
 		$("#usrNmLbl").removeClass("usrNmLbl");
 		
 	}
+	success: function(response){
+      if (response == 'taken' ) {
+      	username_state = false;
+      	$('#username').parent().removeClass();
+      	$('#username').parent().addClass("form_error");
+      	$('#username').siblings("span").text('Sorry... Username already taken');
+      }else if (response == 'not_taken') {
+      	username_state = true;
+      	$('#username').parent().removeClass();
+      	$('#username').parent().addClass("form_success");
+      	$('#username').siblings("span").text('Username available');
+      }
+    }
+  });
 });
 
 $("#passWrdInpt input").focus(function(e){	
@@ -194,24 +239,7 @@ $("#CloseId").click(function(){
 });	
 //confirm page popup end
 
-// menu start
 
-(function($){
-	$(document).ready(function(){
-  	$('#menuToggle').click(function(e){
-    	var $parent = $(this).parent('nav');
-      $parent.toggleClass("open");
-      var navState = $parent.hasClass('open') ? "hide" : "show";
-      $(this).attr("title", navState + " navigation");
-			setTimeout(function(){
-				console.log("timeout set");
-				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
-			}, 200);
-    	e.preventDefault();
-  	});
-  });
-})(jQuery);
-// menu end
 
 //dashboard popup start
 $("#searchpopUp").hide();
