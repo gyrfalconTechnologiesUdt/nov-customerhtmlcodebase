@@ -6,7 +6,7 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .nov-h1{text-align: center; font-size: 1.2em;   font-weight: bold;}
 .nov-container{    width: 340px;    margin: 0 auto;}
 .clearfix{clear: both!important; float: none!important; }
-.errormsg{ color: #d22525; font-size: 0.80em; padding-top: 5px;}
+.error{ color: #d22525; font-size: 0.80em; padding-top: 5px;}
 /*Common Styles End**/
 
 /* customer Sign In Page Start*/
@@ -56,6 +56,7 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 
 
 /*Dashboard page start*/
+#map{height: 600px; width: 100%;}
 .popupcontent{ position: fixed; width: 80%; height: 135px; left: 10%;top: 230px; background-color: #fff; border: 1px solid #00000069;}
 .popupBox{  padding: 20px; text-align: center;}
 .okBtn{ text-align: center; width: 70px; height: 40px; background: #2a3746; line-height: 2.5em;cursor: pointer; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}

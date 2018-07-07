@@ -11,9 +11,20 @@
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
         <script type="text/javascript" src= "js/script.js"></script>
 		
+		
 </head>
 <body>
 	<div class="nov-dashbrd-container">
+	<div id="map"></div>
+	<script>
+  function initMap() {
+  var uluru = {lat: 11.1085242, lng: 77.3410656};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 		<div id="mySidenav" class="sidenav">
 			<div class="box1">
 				<div class="headerbox">Register Now</div>
@@ -37,7 +48,6 @@
 				document.getElementById("mySidenav").style.width = "0";
 			}
 			</script>
-		<div id="map"></div>
 		<div class="popupcontent" id="popUp">
 			<div class="popupBox" >Turn on location services</div>	
 			<div class="okBtn" id="close">Ok</div>

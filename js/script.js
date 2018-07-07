@@ -23,9 +23,7 @@ $("#registerLink").click(function(){
 $("#forgotLnk").click(function(){
     window.location.href = "4_customer_forgotpassword.html";	
 }); 
-$("#loginClDashBd").click(function(){
-    window.location.href = "3_customer_dashboadrd.html";	
-});
+
 // customer sign In redirect end
 
 // menu redirect start
@@ -88,20 +86,28 @@ $("#userNameInpt input").blur(function(e){
 		
 	}
 });	
-function Validate() {
-    var txtUsername = document.getElementById("gayathri").value;
-	var txtPassword = document.getElementById("pavithra").value;
-    if (txtUsername!= gayathri) {
-        alert("Passwords do not match.");
-        return false;
-    }
-    return true;
-	if (txtPassword!= pavithra) {
-        alert("Passwords do not match.");
-        return false;
-    }
-    return true;
-}
+$("#loginClDashBd").click(function(){
+    var txtUsername = document.getElementById("txtUsername").value;
+	var txtPassword = document.getElementById("txtPassword").value;
+   if(txtUsername== "gayathri" && txtPassword== "pavithra")
+   {
+    window.location.href = "3_customer_dashboadrd.html";	
+   }
+	{
+	   if (txtPassword!= "pavithra")
+	    {   
+		document.getElementById('pswrderror').innerHTML="password do not match"; 		
+		
+		}
+	}
+		{
+		if (txtUsername!= "gayathri") 
+		{
+		document.getElementById('usernameerror').innerHTML="username do not match"; 
+		}
+		}
+});
+
 
 $("#passWrdInpt input").focus(function(e){	
 $("#paswrdLbl").addClass("paswrdLbl");
@@ -243,23 +249,16 @@ $("#CloseId").click(function(){
 
 //dashboard popup start
 $("#searchpopUp").hide();
+$("#map").hide();
 $("#close").click(function() {
 	$("#searchpopUp").show();
+	$("#map").show();
 	$("#popUp").hide();		
 });
 $(window).on('load', function(){ 
 	$("#popUp").show();
 });	
 //dashboard popup End
-
-//dashboard map start
-function initMap() {
-  var uluru = {lat: -25.344, lng: 131.036};
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-//dashboard map end
 
 //customer trip popup start
 $("#pastclId").hide();
