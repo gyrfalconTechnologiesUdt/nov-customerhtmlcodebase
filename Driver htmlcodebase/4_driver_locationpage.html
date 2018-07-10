@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Nmmaooruvandi Dashboardpage</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">
+		<link type="text/css" rel="stylesheet" href="css/mdb.min.css">  
+		<link type="text/css" rel="stylesheet" href="css/driver.css">
+        <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
+        <script type="text/javascript" src= "js/driver_script.js"></script>
+		
+</head>
+<body>
+	<div class="nov-dashbrd-container">
+	<div id="map"></div>
+		<script>
+			function initMap() {
+			  var uluru = {lat:  11.1085242, lng: 77.3410656};
+			  var map = new google.maps.Map(
+				  document.getElementById('map'), {zoom: 4, center: uluru});
+			  var marker = new google.maps.Marker({position: uluru, map: map});
+			}
+		</script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+		</script>
+	<div id="mySidenav" class="sidenav">
+			<div class="headerbox" id="registerId">Register Now</div>
+			<div class="closebtn" onclick="closeNav()">&times;</div>
+			<div class ="list">
+				  <li><div id="homeId">Home</div></li>
+				  <li><div id="tripId">Trip</div></li>
+				  <li><div id="settingsId">Settings</div></li>
+				  <li><div id="logoutId">logout</div></li>
+		    </div>
+	    </div>
+		<span class="navstyle" onclick="openNav()">&#9776; </span>
+		<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "350px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
+		<div class="popupcontent" id="popUp">
+			<div class="popupBox" >Turn on location services</div>	
+			<div class="okBtn" id="close">Ok</div>
+		</div>
+	</div>
+</body>
+</html>		
