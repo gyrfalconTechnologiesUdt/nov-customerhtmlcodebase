@@ -6,7 +6,7 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .nov-h1{text-align: center; font-size: 1.2em;   font-weight: bold;}
 .nov-container{    width: 340px;    margin: 0 auto;}
 .clearfix{clear: both!important; float: none!important; }
-.error{ color: #d22525; font-size: 0.80em; padding-top: 5px;}
+.errormsg{ color: #d22525; font-size: 0.80em; padding-top: 5px;}
 /*Common Styles End**/
 
 /* customer Sign In Page Start*/
@@ -23,14 +23,13 @@ body{    font-family: sans-serif;	background-color: #e7e7e7; 	background-attachm
 .password  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .password input[type=password]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);}
 .b-Line{display: block;    width: 100%; line-height: 1.5; color: #000; border: 1px solid #ced4da;}
-input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !important;}
+input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 1em !important;}
 .loginbutton{ text-align: center; width: 230px;    height: 40px;    margin: 0px auto; cursor: pointer;   background: #2a3746;   line-height: 2.5em;   color: #fff;  border-radius: 7px; border: none; margin-top: 25px;    margin-bottom: 25px;}
 .socialMediaicons{ margin-top: 20px; width: 290px; margin-left: 95px; cursor: pointer;}
 .signInWithTxt{ font-size: 12px; font-weight: bold; color: #000; text-align: center;}
 .frgtpwrd  {	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: left; margin: 15px 0; cursor: pointer;}
 .registernow{	color: #000; font-weight: bold; text-decoration: none; font-size: 0.9em; float: right; margin: 15px 0;cursor: pointer;}
 	a{color: #e7e7e7; !important}
-	
 /*Media Query*/
 
 @media only screen and (max-width: 320px) and (min-width: 350px)  {
@@ -56,8 +55,8 @@ input:focus{border-bottom: 2px solid #2a3746 !important; font-size: 0.80em !impo
 
 
 /*Dashboard page start*/
-#map{height: 600px; width: 100%;}
-.popupcontent{ position: fixed; width: 80%; height: 135px; left: 10%;top: 230px; background-color: #fff; border: 1px solid #00000069;}
+
+.popupcontent{ position: fixed; width: 80%; height: 135px; left: 10%;top: 160px; background-color: #fff; border: 1px solid #00000069;}
 .popupBox{  padding: 20px; text-align: center;}
 .okBtn{ text-align: center; width: 70px; height: 40px; background: #2a3746; line-height: 2.5em;cursor: pointer; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
 /*Dashboard page* end*/
